@@ -285,15 +285,48 @@ cite img {
 }
 
 /* ------------------------------------ */
-/* FORM */
+/* CONTACT */
 /* ------------------------------------ */
-.section-form {
+.section-contact {
   margin: 6% auto;
 }
 
+.section-contact h2 {
+  padding-bottom: 2%;
+}
+
+.opening h3 {
+  padding-bottom: 20px;
+  /* color: var(--color-primary); */
+}
+
+.hours {
+  padding-left: 70px;
+}
+
+.opening p,
+.contacts p {
+  line-height: 145%;
+}
+
+.icon-contact {
+  display: inline-block;
+  font-size: 130%;
+  margin-bottom: 10px;
+  width: 50px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 145%;
+  margin-top: 6px;
+}
+
+.map {
+width: 100%;
+height: 250px;
+}
+
 .contact-form {
-  width: 60%;
-  margin: 0 auto;
+  margin: 90px auto 0;
 }
 
 input[type=text],
