@@ -16,6 +16,7 @@ html {
   text-rendering: optimizeLegibility;
   overflow-x: hidden;
   letter-spacing: 1px;
+  scroll-behavior: smooth;
 }
 
 /* ------------------------------------ */
@@ -292,7 +293,7 @@ cite img {
 }
 
 .section-contact h2 {
-  padding-bottom: 2%;
+  padding-bottom: 1.1%;
 }
 
 .opening h3 {
@@ -326,7 +327,7 @@ height: 250px;
 }
 
 .contact-form {
-  margin: 90px auto 0;
+  margin: 75px auto 0;
 }
 
 input[type=text],
