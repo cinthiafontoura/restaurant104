@@ -117,8 +117,14 @@
   .hours { padding-left: 0; }
 }
 
-/* Small phones: from 0 to 480px */
+/* Small phones: from 370px to 480px */
 @media only screen and (max-width: 480px) {
   section { padding: 25px 0;}
+}
 
+/* Very small phones: from 0px to 369px */
+@media only screen and (max-width: 369px) {
+  .hero-text h1 {
+    font-size: 195%;
+  }
 }
