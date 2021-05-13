@@ -1,16 +1,13 @@
 /* Big tablets to 1200px (widths smaller than the 1140px row) */
-@media only screen and (max-width: 1200px) {}
+@media only screen and (max-width: 1200px) {
+  .row { padding: 0 2%; }
+}
 
 /* Small tablets to big tablets: 768 to 1024px */
 @media only screen and (max-width: 1024px) {
   body { font-size: 18px; }
 
   .row { padding: 0 2%; }
-
-  .hero-text {
-    left: 30%;
-    transform: translate(19%, -50%);
-  }
 
   .days { padding-right: 35%; }
 
@@ -22,24 +19,27 @@
 }
 
 /* Small phones to small tablets: 481 to 767px */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
   body { font-size: 16px; }
 
   .row { padding: 0 4%; }
 
   .hero-text {
+    align-items: center;
     text-align: center;
-    transform: translate(-25%, -50%);
   }
 
   .hero-text h1 {
-    font-size: 228%;
+    font-size: 230%;
     font-weight: 300;
     padding-bottom: 20px;
   }
 
   .main-nav { display: none; }
-  .mobile-nav-icon { display: inline-block; }
+  .mobile-nav-icon {
+    display: inline-block;
+    padding-bottom: 120px;
+  }
 
   .main-nav {
     float: left;
@@ -55,7 +55,6 @@
     padding: 10px 0;
     font-size: 100%;
   }
-
 
   .btn:link,
   .btn:visited,
@@ -121,4 +120,5 @@
 /* Small phones: from 0 to 480px */
 @media only screen and (max-width: 480px) {
   section { padding: 25px 0;}
+
 }
