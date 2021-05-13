@@ -1,5 +1,18 @@
 $(document).ready(function() {
-  // Mobile navegation
+  // Sticky nav
+  var waypoint = new Waypoint({
+    element: $('.js--section-content'),
+    handler: function(direction) {
+      if (direction == "down") {
+        $('nav').addClass('sticky');
+      } else {
+        $('nav').removeClass('sticky');
+      }
+    },
+    offset: '300px;'
+  });
+
+  // Mobile nav
   $(".js--nav-icon").click(() => {
     const nav = $(".js--main-nav");
     nav.slideToggle(200);
@@ -14,5 +27,4 @@ $(document).ready(function() {
       icon[0].name = "menu";
     }
   });
-  
 });
