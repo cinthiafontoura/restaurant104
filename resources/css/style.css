@@ -303,6 +303,9 @@ cite img {
   vertical-align: middle;
   line-height: 145%;
   margin-top: 6px;
+}
+
+.contacts span {
   text-decoration: none;
   color: var(--color-text-lighter);
 }
