@@ -303,6 +303,8 @@ cite img {
   vertical-align: middle;
   line-height: 145%;
   margin-top: 6px;
+  text-decoration: none;
+  color: var(--color-text-lighter);
 }
 
 .map {
