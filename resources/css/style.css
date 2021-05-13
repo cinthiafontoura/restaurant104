@@ -9,7 +9,7 @@
 
 html {
   background: #303a2e;
-  color:#fff;
+  color: var(--color-text-lighter);
   font-family: 'Ubuntu', sans-serif;
   font-size: 20px;
   font-weight: 300;
@@ -57,7 +57,7 @@ input[type=submit] {
   font-weight: 300;
   text-decoration: none;
   border-radius: 10px;
-  color: #fff;
+  color: var(--color-text-lighter);
   transition: background 0.4s, border 0.4s, color 0.4s;
 }
 
@@ -93,7 +93,7 @@ input[type=submit]:active {
 .btn-ghost:active {
   background: var(--color-primary-darker);
   border: 1px solid var(--color-primary-darker);
-  color: #fff;
+  color: var(--color-text-lighter);
 }
 
 /* ------------------------------------ */
@@ -108,7 +108,7 @@ header {
 }
 
 .hero-text {
-  color: #fff;
+  color: var(--color-text-lighter);
   position: absolute;
   top:50%;
   left: 50%;
@@ -117,13 +117,7 @@ header {
 }
 
 .hero-text .btn-full:link,
-.hero-text .btn-full:visited {
-margin-right: 15px;
-}
-
-nav {
-  /* background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0)); */
-}
+.hero-text .btn-full:visited { margin-right: 15px; }
 
 .logo {
   color: var(--color-text-lighter);
@@ -132,6 +126,7 @@ nav {
   float: left;
   margin: 20px 0 0;
 }
+
 .logo h1 {
   text-align: center;
   letter-spacing: 0;
@@ -172,16 +167,12 @@ nav {
 }
 
 .main-nav li a:hover,
-.main-nav li a:active {
-  border-bottom: 3px solid var(--color-primary);
-}
+.main-nav li a:active { border-bottom: 3px solid var(--color-primary); }
 
 /* ------------------------------------ */
 /* CONTENT */
 /* ------------------------------------ */
-.section-content {
-  margin: 9% auto 0;
-}
+.section-content { margin: 9% auto 0; }
 
 .content {
   display: flex;
@@ -226,9 +217,7 @@ nav {
   font-size: 190%;
 }
 
-.content-box h2 span {
-  font-style: italic;
-}
+.content-box h2 span { font-style: italic; }
 
 .content-box p {
   width: 75%;
@@ -239,17 +228,9 @@ nav {
 /* ------------------------------------ */
 /* TESTIMONIALS */
 /* ------------------------------------ */
-/* .section-testimonials {
-  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("img/hero.jpg");
-  background-size: cover;
-  background-position: center;
-  height: 70vh;
-  background-attachment: fixed;
-} */
-
 .section-testimonials {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/bg-customer-2.jpg); background-size: cover;
-  color: #fff;
+  color: var(--color-text-lighter);
   background-attachment: fixed;
   padding: 5% 0;
 }
@@ -288,27 +269,16 @@ cite img {
 /* ------------------------------------ */
 /* CONTACT */
 /* ------------------------------------ */
-.section-contact {
-  margin: 6% auto;
-}
+.section-contact { margin: 6% auto; }
 
-.section-contact h2 {
-  padding-bottom: 1.1%;
-}
+.section-contact h2 { padding-bottom: 1.5%; }
 
-.opening h3 {
-  padding-bottom: 20px;
-  /* color: var(--color-primary); */
-}
+.opening h3 { padding-bottom: 20px; }
 
-.hours {
-  padding-left: 70px;
-}
+.hours { padding-left: 70px; }
 
 .opening p,
-.contacts p {
-  line-height: 145%;
-}
+.contacts p { line-height: 145%; }
 
 .icon-contact {
   display: inline-block;
@@ -326,29 +296,22 @@ width: 100%;
 height: 250px;
 }
 
-.contact-form {
-  margin: 75px auto 0;
-}
+.contact-form { margin: 75px auto 0; }
 
 input[type=text],
 input[ type=email],
 select,
 textarea {
-
   width: 100%;
   padding: 7px;
   border-radius: 3px;
-  border: 1px solid #ccc;
+  border: 1px solid var(--color-text-lighter);
   outline-color: var(--color-primary);
 }
 
-textarea {
-  height: 100px;
-}
+textarea { height: 100px; }
 
-input[type=checkbox] {
-  margin: 10px 5px 10px 0;
-}
+input[type=checkbox] { margin: 10px 5px 10px 0; }
 
 /* ------------------------------------ */
 /* FOOTER */
@@ -356,7 +319,7 @@ input[type=checkbox] {
 footer {
   background: #20271f;
   padding: 45px;
-  font-size: 95%
+  font-size: 95%;
 }
 
 .footer-nav {
@@ -376,9 +339,7 @@ footer {
 }
 
 .footer-nav li:last-child,
-.social-links li:last-child {
-  margin-right: 0;
-}
+.social-links li:last-child { margin-right: 0; }
 
 .footer-nav li a:link,
 .footer-nav li a:visited,
@@ -393,22 +354,16 @@ footer {
 .footer-nav li a:hover,
 .footer-nav li a:active,
 .social-links li a:hover,
-.social-links li a:active {
-  color: #ddd;
-}
+.social-links li a:active { color: #ddd; }
 
 ion-icon {
   font-size: 250%;
   transition: color 0.3s;
 }
 
-ion-icon[name=logo-facebook]:hover {
-  color: #3b5998;
-}
+ion-icon[name=logo-facebook]:hover { color: #3b5998; }
 
-ion-icon[name=logo-instagram]:hover {
-  color: #c32aa3;
-}
+ion-icon[name=logo-instagram]:hover { color: #c32aa3; }
 
 footer p {
   color: #888;
