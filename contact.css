@@ -1,0 +1,16 @@
+.contact__icon {
+    padding-right: .6rem;
+  }
+  
+  .contact__info {
+    color: var(--color-text-lighter);
+    display: block;
+    line-height: 1.45rem;
+    margin-bottom: 1.5rem;
+    text-decoration: none;
+  }
+  
+  .contact__info:hover {
+    text-decoration: underline;
+    text-decoration-color: var(--color-primary);
+  }
