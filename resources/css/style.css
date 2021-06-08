@@ -298,9 +298,9 @@ cite img {
 /* ------------------------------------ */
 /* CONTACT */
 /* ------------------------------------ */
-.section-contact { margin: 6% auto; }
+.contact { margin: 6% auto; }
 
-.section-contact h2 { padding-bottom: 1.5%; }
+.contact__title { padding-bottom: 1.5%; }
 
 .opening h3 { padding-bottom: 20px; }
 
@@ -318,11 +318,6 @@ cite img {
   vertical-align: middle;
   line-height: 145%;
   margin-top: 6px;
-}
-
-.contacts span {
-  text-decoration: none;
-  color: var(--color-text-lighter);
 }
 
 .map {
@@ -390,14 +385,14 @@ footer {
 .social-links li a:hover,
 .social-links li a:active { color: #ddd; }
 
-ion-icon {
-  font-size: 250%;
+.footer__icon {
+  font-size: 2rem;
   transition: color 0.3s;
 }
 
-ion-icon[name=logo-facebook]:hover { color: #3b5998; }
-
-ion-icon[name=logo-instagram]:hover { color: #c32aa3; }
+.footer__icon:hover { 
+  color: var(--color-text-lighter); 
+}
 
 footer p {
   color: #888;
