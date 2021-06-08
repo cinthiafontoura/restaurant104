@@ -9,8 +9,9 @@
   <link rel="stylesheet" href="resources/css/colors.css">
   <link rel="stylesheet" href="resources/css/style.css">
   <link rel="stylesheet" href="resources/css/queries.css">
+  <link rel="stylesheet" href="resources/css/contact.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,500;0,700;1,300;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,500;0,700;1,300;1,400&display=swap">
   <title>Restaurant 104</title>
 </head>
 
@@ -20,7 +21,7 @@
       <div class="row">
         <div>
           <a href="#top"><img class="logo" src="resources/img/logo-white.svg" alt="Logo Restaurant 104"></a>
-          <a href="#top"><img class="logo-sticky" src="resources/img/logo-white.svg" alt="Logo Restaurant 104"</a>
+          <a href="#top"><img class="logo-sticky" src="resources/img/logo-white.svg" alt="Logo Restaurant 104"></a>
 
         </div>
         <ul class="main-nav js--main-nav">
@@ -123,9 +124,9 @@
     </div>
   </section>
 
-  <section id="contact" class="section-contact">
+  <section id="contact" class="contact">
     <div class="row">
-      <h2>We're happy to hear from you</h2>
+      <h2 class="contact__title">We're happy to hear from you</h2>
     </div>
 
     <div class="row">
@@ -145,24 +146,22 @@
           <p>Closed</p>
           <p>Closed</p>
           <p>Closed</p>
-          <p>11:00 - 20:00</p>
-          <p>11:00 - 20:00</p>
+          <p>11:00 - 20:30</p>
+          <p>11:00 - 20:30</p>
           <p>11:00 - 20:00</p>
         </div>
       </div>
       <div class="col span-1-of-3 contacts">
-        <div>
-          <ion-icon class="icon-contact" name="location"></ion-icon>
-          <span>104 Drumcondra Rd Upper</span>
-        </div>
-        <div>
-          <ion-icon class="icon-contact" name="call"></ion-icon>
-          <span>01-7978936</span>
-        </div>
-        <div>
-          <ion-icon class="icon-contact" name="mail"></ion-icon>
-          <span>info@restaurant104.ie</span>
-        </div>
+        <address>
+          <a class="contact__info" href="https://goo.gl/maps/QF1zv7Ub5hQSRc2K8" target="_blank"><i class="fas fa-map-marker-alt contact__icon"></i>104 Drumcondra Rd Upper<br>Drumcondra - Dublin 9</a>
+          <article>
+            <p>
+              <a class="contact__info" href="tel:+35317978936"><i class="fas fa-phone-alt contact__icon"></i>01-7978936</a>
+              <a class="contact__info" href="mailto:info@restaurant104.ie" target="_blank"><i class="fas fa-envelope contact__icon"></i>info@restaurant104.ie</a>
+            </p>
+          </article>
+        </address>
+        
       </div>
       <div class="col span-1-of-3">
         <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2380.387770961076!2d-6.254839284160569!3d53.37211097998441!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670e694fc92241%3A0xcdd495a5dd9a7e08!2sRestaurant%20104!5e0!3m2!1spt-BR!2sie!4v1620481191220!5m2!1spt-BR!2sie"  style="border:0;" allowfullscreen="" loading="lazy"></iframe>
@@ -194,7 +193,7 @@
           <select class="" name="find-us" id="find-us">
             <option value="friends" selected>Friends</option>
             <option value="search">Search</option>
-            <option value="ad">Advertisement</option>
+            <option value="ad">Social Media</option>
             <option value="other">Other</option>
           </select>
         </div>
@@ -240,12 +239,12 @@
         <ul class="social-links">
           <li>
             <a href="https://www.facebook.com/Restaurant104.ie" target="_blank">
-              <ion-icon name="logo-facebook"></ion-icon>
+              <i class="fab fa-facebook-f footer__icon"></i>
             </a>
           </li>
           <li>
             <a href="https://www.instagram.com/restaurant104/" target="_blank">
-              <ion-icon name="logo-instagram"></ion-icon>
+              <i class="fab fa-instagram footer__icon"></i>
             </a>
           </li>
           </li>
@@ -256,7 +255,7 @@
       <p>Copyright &copy; 2021 by Restaurant 104. All rights reserved.</p>
     </div>
   </footer>
-  <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+  <script src="https://kit.fontawesome.com/ca208bcf52.js" crossorigin="anonymous"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="vendors/js/jquery.waypoints.min.js" charset="utf-8"></script>
   <script src="resources/js/script.js" charset="utf-8"></script>
