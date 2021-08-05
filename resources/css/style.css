@@ -76,7 +76,7 @@ input[type=submit] {
 
 .btn:hover,
 .btn:active,
-input[type=submit]:hover;
+input[type=submit]:hover,
 input[type=submit]:active {
   background: var(--color-primary-darker);
 }
@@ -168,7 +168,7 @@ header {
   display: none;
 }
 
-.mobile-nav-icon ion-icon {
+.mobile-nav-icon i {
   font-size: 200%;
   color: #fff;
 }
