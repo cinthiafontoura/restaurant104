@@ -304,8 +304,6 @@ cite img {
 
 .opening h3 { padding-bottom: 20px; }
 
-.hours { padding-left: 70px; }
-
 .opening p,
 .contacts p { line-height: 145%; }
 
@@ -329,6 +327,7 @@ height: 250px;
 
 input[type=text],
 input[ type=email],
+input[ type=number],
 select,
 textarea {
   width: 100%;
@@ -336,6 +335,7 @@ textarea {
   border-radius: 3px;
   border: 1px solid var(--color-text-lighter);
   outline-color: var(--color-primary);
+  margin: 7px 0 15px;
 }
 
 textarea { height: 100px; }
