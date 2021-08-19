@@ -1,0 +1,21 @@
+
+/* main-header is jsut temporary */
+.main-header {
+    height: 30vh;
+  }
+
+.about__title {
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+.about__subtitle {
+    font-size: 2rem;
+    text-align: left;
+    text-transform: none;
+}
+
+.about__link-subtitle {
+    text-decoration: none;
+    color: var(--color-primary);
+}
