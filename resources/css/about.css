@@ -1,7 +1,16 @@
 
 /* main-header is jsut temporary */
 .main-header {
-    height: 30vh;
+    height: 20vh;
+  }
+
+  .main-size {
+    height: 60vh;
+    
+  }
+ 
+  .footer-size {
+      height: 20vh;
   }
 
 .about__title {
