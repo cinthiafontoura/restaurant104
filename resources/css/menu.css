@@ -1,0 +1,58 @@
+.menus {
+	margin: 4%;
+}
+
+.menus__title {
+	font-size: 2rem;
+
+	font-weight: 500;
+}
+
+.menus__items {
+	display: flex;
+	justify-content: space-between;
+}
+
+.menu__item {
+	font-size: 1rem;
+	font-weight: 500;
+	display: inline-block;
+}
+
+.menu__alergen {
+	font-size: 0.6rem;
+	display: inline-block;
+}
+
+.menu__item-description {
+	font-size: 0.85rem;
+	padding-top: 5px;
+}
+
+.menu__price {
+	font-size: 1rem;
+	font-weight: 500;
+	margin-top: -1.1rem;
+	padding-bottom: 15px;
+	text-align: right;
+}
+
+.menus__morning-menu {
+	background-color: #fff;
+	color: var(--color-text);
+	padding: 4rem;
+}
+
+.menus__lunch-menu {
+	padding: 4rem;
+}
+
+.menus__dinner-menu {
+	background-color: #fff;
+	color: var(--color-text);
+	padding: 4rem;
+}
+
+.menus__brunch-menu {
+	padding: 4rem;
+}
