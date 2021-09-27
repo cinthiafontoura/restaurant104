@@ -8,16 +8,17 @@
   <link rel="stylesheet" href="vendors/css/grid.css">
   <link rel="stylesheet" href="resources/css/colors.css">
   <link rel="stylesheet" href="resources/css/style.css">
-  <link rel="stylesheet" href="resources/css/about.css">
   <link rel="stylesheet" href="resources/css/queries.css">
   <link rel="stylesheet" href="resources/css/contact.css">
+  <link rel="stylesheet" href="resources/css/about.css">
+  <link rel="stylesheet" href="resources/css/menu.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,500;0,700;1,300;1,400&display=swap">
   <title>Restaurant 104</title>
 </head>
 
 <body>
-  <header class="main-header">
+  <header class="home-header">
     <nav>
       <div class="row">
         <div>
@@ -30,21 +31,31 @@
             <a href="menu.html">Menus</a>
           </li>
           <li>
-            <a href="index.html#contact" aria-disabled="true">Bookings</a>
+            <a href="#contact" aria-disabled="true">Bookings</a>
           </li>
           <li>
-            <a href="https://restaurant104.voucherconnect.com/product/3041" target="_blank">Vouchers</a>
+            <a href="https://restaurant104.voucherconnect.com/product/3041" target="_blank">Gift Vouchers</a>
           </li>
           <li>
             <a href="about.html" aria-disabled="true">About Us</a>
           </li>
           <li>
-            <a href="index.html#contact">Location</a>
+            <a href="#contact">Location</a>
           </li>
         </ul>
         <a class="mobile-nav-icon js--nav-icon" href="#0"><i class="fas fa-bars" id="animate-menu" name="menu"></i></a>
       </div>
     </nav>
+    <!-- <div class="row hero-text">
+      <h1>The best food of<br>Drumcondra</h1>
+      <div>
+        <a class="btn btn-full" href="menu.html">Menus</a>
+        <a class="btn btn-full" href="#">Bookings</a>
+        <a class="btn btn-full" href="#contact">Call & Collect</a>
+        <a class="btn btn-full" href="https://www.just-eat.ie/restaurants-restaurant104-dublin-drumcondra" target="_blank">Delivery</a>
+      </div>
+
+    </div> -->
   </header>
 
   <main class="main-size">
@@ -67,14 +78,14 @@
 
 
 
-<footer class="footer-size">
+  <footer>
     <div class="row">
       <div class="col span-1-of-2">
         <ul class="footer-nav">
           <li><a href="menu.html">Menus</a></li>
           <li><a href="https://restaurant104.voucherconnect.com/product/3041" target="_blank">Voucher</a></li>
           <li><a href="https://www.just-eat.ie/restaurants-restaurant104-dublin-drumcondra" target="_blank">Delivery</a></li>
-          <li><a href="about.html">About us</a></li>
+          <li><a href="https://app.tablein.com/widget?restaurant_id=1240858" target="_blank">Book a Table</a></li>
         </ul>
       </div>
       <div class="col span-1-of-2">
@@ -96,7 +107,18 @@
     <div class="row">
       <p>Copyright &copy; 2021 by Restaurant 104. All rights reserved.</p>
     </div>
+
+    <!-- TableIn  buttom -->
+    <!--<div class="js-tablein-button" data-restaurant-id="1240858" data-domain="https://app.tablein.com"></div>
+     -->
+
   </footer>
+  <!-- scripts TableIn 1 -->
+  <script src='https://app.tablein.com/sites/all/modules/custom/cumo_widget/js/code_outside_iframe.js?v2' type='text/javascript'></script>
+
+  <!-- scripts TableIn buttom -->
+  <!-- <script src='https://app.tablein.com/sites/all/modules/custom/cumo_widget/js/code_outside_iframe_button.js?v2' type='text/javascript'></script> -->
+
   <script src="https://kit.fontawesome.com/ca208bcf52.js" crossorigin="anonymous"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="vendors/js/jquery.waypoints.min.js" charset="utf-8"></script>
