@@ -1,0 +1,23 @@
+{
+	"name": "restaurant104",
+	"version": "1.0.0",
+	"description": "Restaurant 104 website",
+	"main": "script.js",
+	"scripts": {
+		"sass": "node-sass -w scss/ -o dist/css/ --recursive"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/cinthiafontoura/restaurant104.git"
+	},
+	"author": "Cinthia Fontoura",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/cinthiafontoura/restaurant104/issues"
+	},
+	"homepage": "https://github.com/cinthiafontoura/restaurant104#readme",
+	"dependencies": {
+		"node": "^17.0.1",
+		"node-sass": "^6.0.1"
+	}
+}

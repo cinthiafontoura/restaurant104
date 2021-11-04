@@ -1,0 +1,108 @@
+.menus {
+	margin: 3%;
+}
+
+.menus__titles {
+	font-weight: 500;
+	margin-bottom: 1.5rem;
+}
+
+.menus__titles-information {
+	text-align: center;
+	margin-bottom: 4rem;
+}
+
+.menus__items {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+
+.menus__courses {
+	text-decoration: underline;
+	font-weight: 500;
+	margin-top: 50px;
+}
+
+.menu__item {
+	font-size: 1rem;
+	font-weight: 500;
+	display: inline-block;
+}
+
+.menu__alergen {
+	font-size: 0.6rem;
+	display: inline-block;
+	text-transform: none;
+}
+
+.menu__item-description {
+	font-size: 0.85rem;
+	padding-top: 5px;
+	min-width: 80%;
+}
+
+.menu__price {
+	font-size: 1rem;
+	font-weight: 500;
+	text-align: right;
+}
+
+.menus__morning-menu {
+	padding: 4rem 4rem 0;
+}
+
+.menus__lunch-menu::before,
+.menus__dinner-menu::before,
+.menus__brunch-menu::before {
+	// content: '';
+	width: 100%;
+	background-color: #fff;
+	height: 3px;
+	text-align: center;
+	margin-bottom: 4rem;
+}
+
+.menus__lunch-menu {
+	padding: 4rem 4rem 0;
+}
+
+.menus__dinner-menu {
+	padding: 4rem 4rem 0;
+}
+
+.menus__brunch-menu {
+	padding: 4rem 4rem 4rem;
+}
+
+.navbar-btn {
+	position: absolute;
+	right: 135px;
+	top: 135px;
+	cursor: pointer;
+	z-index: 3;
+	transition: all 0.5s ease-out;
+}
+
+.navbar-btn__line {
+	width: 28px;
+	height: 3px;
+	margin-bottom: 5px;
+	background: #fff;
+	transition: all 0.5s ease-out;
+}
+
+/* Rotate Into X With Menu Lines */
+
+.close {
+	transform: rotate(180deg);
+}
+
+.navbar-btn__line-rotate {
+}
+
+/* VER NAVGATION ANIMATION  - SECTION 15*/
+
+/* VER DOUBLE VERTICAL SLIDER - SECTION 27 */
+
+/* VER NETFLIX NAVBAR - SECTION 45 */
