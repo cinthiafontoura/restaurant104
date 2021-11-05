@@ -23,10 +23,6 @@
 		padding-left: 11%;
 	}
 
-	.contact-form {
-		padding: 0;
-	}
-
 	footer {
 		padding: 10px;
 	}
@@ -53,42 +49,19 @@
 		padding-bottom: 20px;
 	}
 
-	.main-nav {
-		display: none;
-	}
+	.navbar {
+		.logo {
+			width: 60px;
+			margin: 20px 0 0;
+		}
 
-	.mobile-nav-icon {
-		display: inline-block;
-	}
+		.main-nav {
+			margin-top: 27px;
 
-	.main-nav {
-		float: left;
-		margin: 30px 0 0 25px;
-	}
-
-	.main-nav li {
-		display: block;
-	}
-
-	.main-nav li a:link,
-	.main-nav li a:visited {
-		display: block;
-		border: 0;
-		padding: 10px 0;
-		font-size: 100%;
-	}
-
-	.sticky .main-nav {
-		margin-top: 10px;
-	}
-
-	.sticky .main-nav li a:link,
-	.sticky .main-nav li a:visited {
-		padding: 10px 0;
-	}
-
-	.sticky .mobile-nav-icon {
-		margin-top: 15px;
+			& li {
+				margin-left: 8px;
+			}
+		}
 	}
 
 	a:link,
@@ -107,8 +80,8 @@
 
 	.btn-ghost:link,
 	.btn-ghost:visited {
-		background: var(--color-primary);
-		color: var(--color-text-lighter);
+		background: $primary-color;
+		color: $text-color;
 	}
 
 	.hero-text .btn-full:link,
@@ -159,6 +132,23 @@
 	.content-box p {
 		width: 90%;
 		font-size: 110%;
+	}
+
+	.section-testimonials {
+		background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+			url(../img/bg-customer-2.jpg);
+		background-size: cover;
+		color: $text-color;
+		background-attachment: fixed;
+		padding: 5% 0;
+
+		.testimonials {
+			flex-direction: column;
+
+			blockquote {
+				margin-top: 70px;
+			}
+		}
 	}
 
 	.col .days,

@@ -49,30 +49,26 @@
 }
 
 .menus__morning-menu {
-	padding: 4rem 4rem 0;
+	padding: 9rem 0 4rem;
 }
 
-.menus__lunch-menu::before,
-.menus__dinner-menu::before,
-.menus__brunch-menu::before {
-	// content: '';
+hr {
 	width: 100%;
 	background-color: #fff;
 	height: 3px;
-	text-align: center;
-	margin-bottom: 4rem;
+	margin-top: 4rem;
 }
 
 .menus__lunch-menu {
-	padding: 4rem 4rem 0;
+	padding: 4rem 0 4rem;
 }
 
 .menus__dinner-menu {
-	padding: 4rem 4rem 0;
+	padding: 4rem 0 4rem;
 }
 
 .menus__brunch-menu {
-	padding: 4rem 4rem 4rem;
+	padding: 4rem 0 4rem;
 }
 
 .navbar-btn {
@@ -96,9 +92,6 @@
 
 .close {
 	transform: rotate(180deg);
-}
-
-.navbar-btn__line-rotate {
 }
 
 /* VER NAVGATION ANIMATION  - SECTION 15*/

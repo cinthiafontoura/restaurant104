@@ -1,0 +1,37 @@
+.section-testimonials {
+	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+		url(../img/bg-customer-2.jpg);
+	background-size: cover;
+	color: $text-color;
+	background-attachment: fixed;
+	padding: 5% 0;
+
+	.testimonials {
+		display: flex;
+		justify-content: center;
+
+		blockquote {
+			padding: 2%;
+			font-style: italic;
+			line-height: 145%;
+			position: relative;
+			margin-top: 40px;
+			text-shadow: 2px 2px 1px #000;
+
+			&:before {
+				content: '\201C';
+				font-size: 500%;
+				display: block;
+				position: absolute;
+				top: -5px;
+				left: -5px;
+			}
+
+			cite {
+				font-size: 90%;
+				margin-top: 25px;
+				display: block;
+			}
+		}
+	}
+}
