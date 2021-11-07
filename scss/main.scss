@@ -1,9 +1,5 @@
-@import 'config', 'menu', 'testimonials';
+@import 'config', 'menu', 'testimonials', 'contact';
 
-//style.css
-/* ------------------------------------ */
-/* BASIC SETUP */
-/* ------------------------------------ */
 * {
 	margin: 0;
 	padding: 0;
@@ -16,6 +12,7 @@ html {
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 20px;
 	font-weight: 300;
+	line-height: 1.45;
 	text-rendering: optimizeLegibility;
 	overflow-x: hidden;
 	letter-spacing: 1px;
@@ -30,7 +27,6 @@ html {
 	margin: 0 auto;
 }
 
-/* -------Headings-------- */
 h1,
 h2,
 h3 {
@@ -111,6 +107,15 @@ input[type='submit']:active {
 	background-attachment: fixed;
 }
 
+.menu-header {
+	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+		url('../img/greek-salad.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	background-attachment: fixed;
+}
+
 .hero-text {
 	color: $text-color;
 	display: flex;
@@ -129,17 +134,14 @@ input[type='submit']:active {
 .navbar {
 	display: flex;
 	justify-content: space-between;
-	background: rgba(0, 1, 0.5, 0.5);
 
 	.logo {
-		position: fixed;
 		left: 5%;
 		width: 130px;
 		margin: 20px 0 0;
 	}
 
 	.main-nav {
-		position: fixed;
 		right: 5%;
 		list-style: none;
 		margin-top: 60px;
@@ -227,74 +229,6 @@ input[type='submit']:active {
 }
 
 /* ------------------------------------ */
-/* CONTACT */
-/* ------------------------------------ */
-.contact {
-	margin: 6% auto;
-}
-
-.contact__title {
-	padding-bottom: 1.5%;
-}
-
-.opening h3 {
-	padding-bottom: 20px;
-}
-
-.opening p,
-.contacts p {
-	line-height: 145%;
-}
-
-.icon-contact {
-	display: inline-block;
-	font-size: 130%;
-	margin-bottom: 10px;
-	width: 50px;
-	text-align: center;
-	vertical-align: middle;
-	line-height: 145%;
-	margin-top: 6px;
-}
-
-.map {
-	width: 80vw;
-	height: 50vh;
-	margin: auto;
-}
-
-.location__text {
-	margin: 100px 10px 50px;
-	text-align: center;
-	font-size: 1.3rem;
-}
-
-.contact-form {
-	margin: 75px auto 0;
-}
-
-input[type='text'],
-input[type='email'],
-input[type='number'],
-select,
-textarea {
-	width: 100%;
-	padding: 7px;
-	border-radius: 3px;
-	border: 1px solid $text-color;
-	outline-color: $secundary-color;
-	margin: 7px 0 15px;
-}
-
-textarea {
-	height: 100px;
-}
-
-input[type='checkbox'] {
-	margin: 10px 5px 10px 0;
-}
-
-/* ------------------------------------ */
 /* FOOTER */
 /* ------------------------------------ */
 footer {
@@ -355,23 +289,6 @@ footer p {
 	text-align: center;
 	font-size: 90%;
 	margin-top: 20px;
-}
-
-.contact__icon {
-	padding-right: 0.6rem;
-}
-
-.contact__info {
-	color: $text-color;
-	display: block;
-	line-height: 1.45rem;
-	margin-bottom: 1.5rem;
-	text-decoration: none;
-}
-
-.contact__info:hover {
-	text-decoration: underline;
-	text-decoration-color: $secundary-color;
 }
 
 @import 'mobile';

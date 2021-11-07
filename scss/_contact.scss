@@ -1,0 +1,50 @@
+.contact {
+	margin: 6% auto;
+	text-align: center;
+
+	& h3 {
+		font-weight: 400;
+	}
+
+	&__text {
+		margin: 60px 15px 60px;
+	}
+
+	&__infos {
+		display: flex;
+		justify-content: space-evenly;
+		align-items: center;
+	}
+
+	&__contacts {
+		&-info {
+			color: $text-color;
+			display: block;
+			margin-bottom: 1.5rem;
+			text-decoration: none;
+
+			&:hover {
+				text-decoration: underline;
+				text-decoration-color: $secundary-color;
+			}
+		}
+
+		&-hours {
+			display: flex;
+			flex-direction: column;
+			margin-bottom: 40px;
+
+			& .opening {
+				display: flex;
+				justify-content: space-evenly;
+				width: 30vw;
+			}
+		}
+	}
+
+	&__map {
+		width: 40vw;
+		height: 60vh;
+		margin-bottom: 5%;
+	}
+}

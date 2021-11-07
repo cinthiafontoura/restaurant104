@@ -20,7 +20,7 @@
 				<div class="navbar-btn__line"></div>
 				<div class="navbar-btn__line"></div>
 			</div> -->
-			<nav class="navbar">
+			<nav class=" row navbar">
 								<div>
 						<a href="index.html"
 							><img class="logo" src="img/logo-white.svg" alt="Logo Restaurant 104"
@@ -32,7 +32,7 @@
 							<a href="menu.html">Menus</a>
 						</li>
 						<li>
-							<a href="index.html#book" aria-disabled="true">Bookings</a>
+							<a href="index.html#book" aria-disabled="true">Book a Table</a>
 						</li>
 						<!-- <li>
 							<a
@@ -45,7 +45,7 @@
             <a href="about.html" aria-disabled="true">About Us</a>
           </li> -->
 						<li>
-							<a href="#location">Contact</a>
+							<a href="#contact">Contact</a>
 						</li>
 					</ul>
 						</nav>
@@ -65,27 +65,10 @@
 			</div>
 		</header>
 
-		<section class="section-content js--section-content">
-			<!-- <div class="row content">
-				 <div class="content-box image-content col span-1-of-2">
-					<figure>
-						<img src="img/cheese-box.jpg" alt="Cheese box" />
-					</figure>
-				</div> 
-				 <div class="content-box col span-1-of-2">
-					<h3>&nbsp;</h3>
-					<h2>Charcutarie & Wine Boxes</h2>
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Accumsan tortor
-						posuere ac ut. Urna porttitor rhoncus dolor purus non.
-					</p> 
-					 <a class="btn btn-full" href="#contact">Call and Collect</a> 
-				</div> 
-			</div>-->
-
+		<section class="section-content">
+			
 			<div id="book" class="row content-reverse">
-				<div class="content-box image-content col span-1-of-2">
+				<div class="content-box image-content">
 					<figure>
 						<img
 							class="content__image"
@@ -94,7 +77,7 @@
 						/>
 					</figure>
 				</div>
-				<div class="content-box col span-1-of-2">
+				<div class="content-box">
 					<h3>Book a table</h3>
 					<h2></h2>
 					<p>
@@ -104,41 +87,35 @@
 						ingredients. Every soup, sauce, parfait, chutney & jam is made in-house by
 						our talented Chefs, who leave nothing to chance.
 					</p>
+					
 					<!-- TableIn  buttom -->
 					<div
 						class="js-tablein-button"
 						data-restaurant-id="1240858"
 						data-domain="https://app.tablein.com"
 					></div>
-
-					<!-- <a
-						class="btn btn-full"
-						href="https://www.just-eat.ie/restaurants-restaurant104-dublin-drumcondra"
-						target="_blank"
-						>Order now!</a >-->
 				</div>
 			</div>
 
 			<div class="row content">
-				<div class="content-box image-content col span-1-of-2">
-					<figure>
-						<img src="img/gift-voucher.jpg" alt="Cheese box" />
-					</figure>
+				<div class="content-box image-content">
+					
+						<img src="img/restaurant104.jpg" alt="Restaurant 104 outside" />
+					
 				</div>
-				<div class="content-box col span-1-of-2">
-					<h3>Gift Vouchers</h3>
-					<h2>The new way to say <br /><span>"I miss you!"</span></h2>
+				<div class="content-box">
+					<h3>About us</h3>
+					<h2></h2>
 					<p>
-						We have a great selection of boutique wines available for any occasion.
-						Why not take one home today! OR a voucher an easy “Thank You” or
-						Congratulations to new mums or old friends & valued clients.
+						Located just 10 minutes from Dublin city centre in the leafy suburb of
+					Drumcondra, our chefs serve familiar favourites with a twist; for
+					breakfast, lunch and dinner, creating a friendly neighbourhood vibe.
 					</p>
-					<a
+					<!-- <a
 						class="btn btn-full"
 						href="https://restaurant104.voucherconnect.com/product/3041"
 						target="_blank"
-						>Buy my gift</a
-					>
+						>Buy my gift</a> -->
 				</div>
 			</div>
 		</section>
@@ -179,131 +156,74 @@
 			</div>
 		</section>
 
-		<section id="contact" class="contact">
-			<div id="location" class="row">
-				<p class="location__text">
+		<section id="contact" class="contact row">
+
+			<h2 class="contact__text">Contact</h2>
+			
+				<!-- <p class="contact__text">
 					Located just 10 minutes from Dublin city centre in the leafy suburb of
 					Drumcondra, our chefs serve familiar favourites with a twist; for
 					breakfast, lunch and dinner, creating a friendly neighbourhood vibe.
-				</p>
-			</div>
-			<!-- <div class="row">
-				<h2 class="contact__title">We're happy to hear from you</h2>
-			</div> -->
+				</p> -->
+				<div class="contact__infos">
+					<div class="contact__contacts">
+						<div class="contact__contacts-address">
+							<h3>Address</h3>
+								<a class="contact__contacts-info"
+									href="https://goo.gl/maps/QF1zv7Ub5hQSRc2K8"
+									target="_blank">
+									<!-- <i class="fas fa-map-marker-alt contact__icon"></i> -->
+									<address>104 Drumcondra Rd	Upper
+									<br>Drumcondra - Dublin 9</address>
+								</a>
+						</div>
 
-			<div class="row">
-				<div class="col span-1-of-2 opening">
-					<h3>Opening hours</h3>
-					<p>Monday | Tuesday | Wednesday</p>
-					<p>10am - 9pm</p>
-					<br />
-					<p>Thursday | Friday | Saturday | Sunday</p>
-					<p>10am - 10pm</p>
-				</div>
-				<div class="col span-1-of-2 contacts">
-					<address>
-						<a
-							class="contact__info"
-							href="https://goo.gl/maps/QF1zv7Ub5hQSRc2K8"
-							target="_blank"
-							><i class="fas fa-map-marker-alt contact__icon"></i>104 Drumcondra Rd
-							Upper<br />Drumcondra - Dublin 9</a
-						>
-						<article>
-							<p>
-								<a class="contact__info" href="tel:+35317978936"
-									><i class="fas fa-phone-alt contact__icon"></i>01-7978936</a
-								>
-								<a
-									class="contact__info"
-									href="mailto:info@restaurant104.ie"
-									target="_blank"
-									><i class="fas fa-envelope contact__icon"></i>info@restaurant104.ie</a
-								>
-							</p>
-						</article>
-					</address>
-				</div>
-				<div class="col span-1-of-2">
-					<iframe
-						src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4760.775763222447!2d-6.25265!3d53.372109!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xcdd495a5dd9a7e08!2sRestaurant%20104!5e0!3m2!1spt-BR!2sie!4v1632691742833!5m2!1spt-BR!2sie"
-						width="100%"
-						height="450"
-						style="border: 0"
-						allowfullscreen=""
-						loading="lazy"
-					></iframe>
-				</div>
-			</div>
+						<div class="contact__contacts-phone">
+							<h3>Phone</h3>
+							<a class="contact__contacts-info" href="tel:+35317978936">
+								<!-- <i class="fas fa-phone-alt contact__icon"></i> -->
+								01-7978936
+							</a>
+						</div>
 
-			<!-- <form class="row contact-form" action="#" method="post">
-      <div class="row">
-        <div class="">
-          <label for="name">Name</label>
-        </div>
-        <div class="">
-          <input type="text" name="name" id="name" value="" placeholder="Your Name" required>
-        </div>
-      </div>
-      <div class="row">
-        <div class="">
-          <label for="email">Email</label>
-        </div>
-        <div class="">
-          <input type="email" name="email" id="email" value="" placeholder="email@example.com" required>
-        </div>
-      </div>
-      <div class="row">
-        <div class="">
-          <label for="phone">Phone number</label>
-        </div>
-        <div class="">
-          <input type="number" name="phone" id="phone" value="" placeholder="00 000 0000" required>
-        </div>
-      </div>
-      <div class="row">
-        <div class="">
-          <label for="find-us">How did you find us?</label>
-        </div>
-        <div class="">
-          <select class="" name="find-us" id="find-us">
-            <option value="friends" selected>Friends</option>
-            <option value="search">Search</option>
-            <option value="ad">Social Media</option>
-            <option value="other">Other</option>
-          </select>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col span-1-of-3">
-          <label>Newsletter?</label>
-        </div>
-        <div class="col span-2-of-3">
-          <input type="checkbox" name="news" id="news" checked value="">Yes, please!
-        </div>
-      </div>
-      <div class="row">
-        <div class="">
-          <label for="message">Drop us a line</label>
-        </div>
-        <div class="">
-          <textarea id="message" name="message" placeholder="" rows="8" cols="80"></textarea>
-        </div>
-      </div>
-      <div class="row">
-        <div class="">
-          <label for="">&nbsp;</label>
-        </div>
-        <div class="">
-          <input type="submit" name="" value="Send it!">
-        </div>
-      </div>
-    </form> -->
+						<div class="contact__contacts-email">
+							<h3>Email</h3>
+							<a class="contact__contacts-info"	href="mailto:info@restaurant104.ie"	target="_blank">
+								<!-- <i class="fas fa-envelope contact__icon"></i> -->
+								info@restaurant104.ie
+							</a>
+						</div>
+
+						<div class="contact__contacts-hours">
+							<h3>Opening hours</h3>
+							<div class="opening">
+								<div class="opening-1">
+									<p><time> Mon - Wed</time></p>
+									<p><time>Thu - Sun</time></p>
+								</div>
+								<div class="opening-2">
+									<p><time>10am to 9pm</time></p>
+									<p><time>10am to 10pm</time></p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<iframe class="contact__map"
+									src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4760.775763222447!2d-6.25265!3d53.372109!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xcdd495a5dd9a7e08!2sRestaurant%20104!5e0!3m2!1spt-BR!2sie!4v1632691742833!5m2!1spt-BR!2sie"
+									width="100%"
+									height="100%"
+									style="border: 0"
+									allowfullscreen=""
+									loading="lazy">
+					</iframe>
+				</div>
+	
 		</section>
 
 		<footer>
 			<div class="row">
-				<div class="col span-1-of-2">
+				<div>
 					<ul class="footer-nav">
 						<li><a href="menu.html">Menus</a></li>
 						<!-- <li>
@@ -329,7 +249,7 @@
 						</li>
 					</ul>
 				</div>
-				<div class="col span-1-of-2">
+				<div>
 					<ul class="social-links">
 						<li>
 							<a href="https://www.facebook.com/Restaurant104.ie" target="_blank">

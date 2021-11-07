@@ -35,7 +35,7 @@
 	}
 
 	.row {
-		padding: 0 4%;
+		padding: 0;
 	}
 
 	.hero-text {
@@ -50,9 +50,11 @@
 	}
 
 	.navbar {
+		flex-direction: column-reverse;
+		align-items: center;
 		.logo {
-			width: 60px;
-			margin: 20px 0 0;
+			width: 150px;
+			margin: 30vh 0 0;
 		}
 
 		.main-nav {
@@ -93,19 +95,6 @@
 		font-size: 160%;
 	}
 
-	input[type='checkbox'] {
-		margin: 15px 5px 15px 0;
-	}
-
-	input[type='submit'] {
-		margin: auto;
-	}
-
-	.col {
-		width: 100%;
-		margin: 0 0 4% 0;
-	}
-
 	.content {
 		flex-direction: column;
 	}
@@ -115,7 +104,7 @@
 	}
 
 	.content-box img {
-		width: 100%;
+		width: 95vw;
 		height: 100%;
 	}
 
@@ -130,8 +119,9 @@
 	}
 
 	.content-box p {
-		width: 90%;
+		width: 90vw;
 		font-size: 110%;
+		margin: 0 0 20px;
 	}
 
 	.section-testimonials {
@@ -151,13 +141,27 @@
 		}
 	}
 
-	.col .days,
-	.col .hours {
-		width: 50%;
-	}
+	.contact {
+		&__text {
+			margin: 40px 15px;
+		}
 
-	.hours {
-		padding-left: 0;
+		&__infos {
+			flex-direction: column;
+		}
+
+		&__contacts {
+			&-hours {
+				& .opening {
+					width: 100vw;
+				}
+			}
+		}
+
+		&__map {
+			width: 95vw;
+			height: 50vh;
+		}
 	}
 }
 
