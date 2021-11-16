@@ -23,8 +23,47 @@
 		padding-left: 11%;
 	}
 
-	footer {
-		padding: 10px;
+	.footer {
+		display: flex;
+		flex-direction: column;
+		padding: 2rem 0;
+
+		&__links {
+			display: flex;
+			flex-direction: column-reverse;
+			justify-content: center;
+			width: 100%;
+
+			& li {
+				display: inline-block;
+				list-style: none;
+
+				& a {
+					text-decoration: none;
+					color: $footer-text;
+					padding: 0 10px;
+
+					&:hover {
+						color: $secundary-color;
+						@include easeOut;
+					}
+				}
+			}
+
+			&-104 {
+				width: 100%;
+				text-align: center;
+				font-size: 1rem;
+				padding-bottom: 2rem;
+			}
+
+			&-social {
+				width: 100%;
+				text-align: center;
+				font-size: 2rem;
+				padding-bottom: 2rem;
+			}
+		}
 	}
 }
 
@@ -54,7 +93,7 @@
 		align-items: center;
 		.logo {
 			width: 150px;
-			margin: 30vh 0 0;
+			margin: 10vh 0 0;
 		}
 
 		.main-nav {
@@ -63,6 +102,19 @@
 			& li {
 				margin-left: 8px;
 			}
+		}
+	}
+
+	.btn-menu {
+		flex-direction: column;
+
+		padding-top: 10vh;
+
+		.btn {
+			align-self: center;
+
+			margin: 0;
+			padding: 0;
 		}
 	}
 

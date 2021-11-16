@@ -1,3 +1,16 @@
+.btn-menu {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	padding-top: 40vh;
+
+	.btn {
+		width: 150px;
+		text-align: center;
+		margin: 10px;
+	}
+}
+
 .menus {
 	margin: 3%;
 }

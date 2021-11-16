@@ -1,3 +1,13 @@
+.btn-menu {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding-top: 40vh; }
+  .btn-menu .btn {
+    width: 150px;
+    text-align: center;
+    margin: 10px; }
+
 .menus {
   margin: 3%; }
 
@@ -182,8 +192,7 @@ h2 {
 
 /* -------Buttons-------- */
 .btn:link,
-.btn:visited,
-input[type='submit'] {
+.btn:visited {
   display: inline-block;
   padding: 10px 30px;
   font-weight: 300;
@@ -221,6 +230,20 @@ input[type='submit']:active {
   background: #ba8705;
   border: 1px solid #ba8705;
   color: #fff; }
+
+.btn-top {
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  border-radius: 10px;
+  color: #fff;
+  transition: all 0.5s ease-out; }
 
 /* ------------------------------------ */
 /* HEADER */
@@ -333,55 +356,36 @@ input[type='submit']:active {
 /* ------------------------------------ */
 /* FOOTER */
 /* ------------------------------------ */
-footer {
-  background: #20271f;
-  padding: 45px;
-  font-size: 95%; }
-
-.footer-nav {
-  list-style: none;
-  float: left; }
-
-.social-links {
-  list-style: none;
-  float: right; }
-
-.footer-nav li,
-.social-links li {
-  display: inline-block;
-  margin-right: 20px; }
-
-.footer-nav li:last-child,
-.social-links li:last-child {
-  margin-right: 0; }
-
-.footer-nav li a:link,
-.footer-nav li a:visited,
-.social-links li a:link,
-.social-links li a:visited {
-  text-decoration: none;
-  border: 0;
-  color: #888;
-  transition: all 0.5s ease-out; }
-
-.footer-nav li a:hover,
-.footer-nav li a:active,
-.social-links li a:hover,
-.social-links li a:active {
-  color: #ddd; }
-
-.footer__icon {
-  font-size: 2rem;
-  transition: all 0.5s ease-out; }
-
-.footer__icon:hover {
-  color: #fff; }
-
-footer p {
-  color: #888;
-  text-align: center;
-  font-size: 90%;
-  margin-top: 20px; }
+.footer {
+  background: #20261e;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem 0; }
+  .footer__links {
+    display: flex;
+    width: 100%;
+    justify-content: space-between; }
+    .footer__links li {
+      display: inline-block;
+      list-style: none; }
+      .footer__links li a {
+        text-decoration: none;
+        color: #888;
+        padding: 0 10px; }
+        .footer__links li a:hover {
+          color: #dda006;
+          transition: all 0.5s ease-out; }
+    .footer__links-104 {
+      width: 50%;
+      text-align: left; }
+    .footer__links-social {
+      width: 50%;
+      text-align: right;
+      font-size: 2rem; }
+  .footer__copy {
+    color: #888;
+    font-size: 0.8rem;
+    padding: 1.5rem 0 0; }
 
 /* Big tablets to 1200px (widths smaller than the 1140px row) */
 @media only screen and (max-width: 1200px) {
@@ -398,8 +402,35 @@ footer p {
     padding-right: 35%; }
   .hours {
     padding-left: 11%; }
-  footer {
-    padding: 10px; } }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0; }
+    .footer__links {
+      display: flex;
+      flex-direction: column-reverse;
+      justify-content: center;
+      width: 100%; }
+      .footer__links li {
+        display: inline-block;
+        list-style: none; }
+        .footer__links li a {
+          text-decoration: none;
+          color: #888;
+          padding: 0 10px; }
+          .footer__links li a:hover {
+            color: #dda006;
+            transition: all 0.5s ease-out; }
+      .footer__links-104 {
+        width: 100%;
+        text-align: center;
+        font-size: 1rem;
+        padding-bottom: 2rem; }
+      .footer__links-social {
+        width: 100%;
+        text-align: center;
+        font-size: 2rem;
+        padding-bottom: 2rem; } }
 
 /* Small phones to small tablets: 481 to 767px */
 @media only screen and (max-width: 768px) {
@@ -419,11 +450,18 @@ footer p {
     align-items: center; }
     .navbar .logo {
       width: 150px;
-      margin: 30vh 0 0; }
+      margin: 10vh 0 0; }
     .navbar .main-nav {
       margin-top: 27px; }
       .navbar .main-nav li {
         margin-left: 8px; }
+  .btn-menu {
+    flex-direction: column;
+    padding-top: 10vh; }
+    .btn-menu .btn {
+      align-self: center;
+      margin: 0;
+      padding: 0; }
   a:link,
   a:visited {
     border: 0; }

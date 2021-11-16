@@ -49,8 +49,7 @@ h2 {
 
 /* -------Buttons-------- */
 .btn:link,
-.btn:visited,
-input[type='submit'] {
+.btn:visited {
 	display: inline-block;
 	padding: 10px 30px;
 	font-weight: 300;
@@ -93,6 +92,21 @@ input[type='submit']:active {
 	background: darken($secundary-color, 7);
 	border: 1px solid darken($secundary-color, 7);
 	color: $text-color;
+}
+
+.btn-top {
+	position: fixed;
+	right: 15px;
+	bottom: 15px;
+	width: 40px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	border-radius: 10px;
+	color: $text-color;
+	@include easeOut;
 }
 
 /* ------------------------------------ */
@@ -231,64 +245,51 @@ input[type='submit']:active {
 /* ------------------------------------ */
 /* FOOTER */
 /* ------------------------------------ */
-footer {
-	background: #20271f;
-	padding: 45px;
-	font-size: 95%;
-}
 
-.footer-nav {
-	list-style: none;
-	float: left;
-}
+.footer {
+	background: darken($primary-color, 7);
+	display: flex;
+	flex-direction: column;
+	padding: 1.5rem 0;
 
-.social-links {
-	list-style: none;
-	float: right;
-}
+	&__links {
+		display: flex;
+		width: 100%;
+		justify-content: space-between;
 
-.footer-nav li,
-.social-links li {
-	display: inline-block;
-	margin-right: 20px;
-}
+		& li {
+			display: inline-block;
+			list-style: none;
 
-.footer-nav li:last-child,
-.social-links li:last-child {
-	margin-right: 0;
-}
+			& a {
+				text-decoration: none;
+				color: $footer-text;
+				padding: 0 10px;
 
-.footer-nav li a:link,
-.footer-nav li a:visited,
-.social-links li a:link,
-.social-links li a:visited {
-	text-decoration: none;
-	border: 0;
-	color: #888;
-	@include easeOut;
-}
+				&:hover {
+					color: $secundary-color;
+					@include easeOut;
+				}
+			}
+		}
 
-.footer-nav li a:hover,
-.footer-nav li a:active,
-.social-links li a:hover,
-.social-links li a:active {
-	color: #ddd;
-}
+		&-104 {
+			width: 50%;
+			text-align: left;
+		}
 
-.footer__icon {
-	font-size: 2rem;
-	@include easeOut;
-}
+		&-social {
+			width: 50%;
+			text-align: right;
+			font-size: 2rem;
+		}
+	}
 
-.footer__icon:hover {
-	color: $text-color;
-}
-
-footer p {
-	color: #888;
-	text-align: center;
-	font-size: 90%;
-	margin-top: 20px;
+	&__copy {
+		color: $footer-text;
+		font-size: 0.8rem;
+		padding: 1.5rem 0 0;
+	}
 }
 
 @import 'mobile';

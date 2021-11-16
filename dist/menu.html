@@ -43,10 +43,23 @@
 					</li>
 				</ul>
 			</nav>
+			<div class="btn-menu">
+				<a class="btn btn-full" href="#morning-menu">Morning </a>
+
+				<a class="btn btn-full" href="#lunch-menu">Lunch </a>
+
+				<a class="btn btn-full" href="#dinner-menu">Dinner </a>
+
+				<a class="btn btn-full" href="#weekend-menu">Weekend </a>
+			</div>
+
+			<a href="#top" class="btn-ghost btn-top">
+				<i class="fas fa-arrow-up"></i>
+			</a>
 		</header>
 
 		<main class="menus">
-			<div class="row menus__morning-menu">
+			<div id="morning-menu" class="row menus__morning-menu">
 				<h2 class="menus__titles">Morning Menu</h2>
 				<p class="menus__titles-information">Monday to Friday - 10am to 12pm</p>
 
@@ -267,7 +280,7 @@
 			</div>
 			<hr />
 
-			<div class="row menus__lunch-menu">
+			<div id="lunch-menu" class="row menus__lunch-menu">
 				<h2 class="menus__titles">Day Menu</h2>
 				<p class="menus__titles-information">Monday to Sunday - 12pm to 5pm</p>
 
@@ -462,7 +475,7 @@
 			</div>
 			<hr />
 
-			<div class="row menus__dinner-menu">
+			<div id="dinner-menu" class="row menus__dinner-menu">
 				<h2 class="menus__titles">Dinner Menu</h2>
 				<p class="menus__titles-information">Monday to Sunday - 4pm to close</p>
 
@@ -672,7 +685,7 @@
 			</div>
 			<hr />
 
-			<div class="row menus__brunch-menu">
+			<div id="weekend-menu" class="row menus__brunch-menu">
 				<h2 class="menus__titles">Weekend Menu</h2>
 				<p class="menus__titles-information">Weekends - 10am to 12pm</p>
 
@@ -917,10 +930,10 @@
 			</div>
 		</main>
 
-		<footer>
-			<div class="row">
-				<div class="col span-1-of-2">
-					<ul class="footer-nav">
+		<footer class="footer">
+			<div class="footer__links row">
+				<div class="footer__links-104">
+					<ul>
 						<li><a href="menu.html">Menus</a></li>
 						<!-- <li>
 							<a
@@ -945,8 +958,9 @@
 						</li>
 					</ul>
 				</div>
-				<div class="col span-1-of-2">
-					<ul class="social-links">
+
+				<div class="footer__links-social">
+					<ul>
 						<li>
 							<a href="https://www.facebook.com/Restaurant104.ie" target="_blank">
 								<i class="fab fa-facebook-f footer__icon"></i>
@@ -970,7 +984,8 @@
 					</ul>
 				</div>
 			</div>
-			<div class="row">
+
+			<div class="footer__copy row">
 				<p>&copy; 2021 by Restaurant 104.</p>
 			</div>
 		</footer>
