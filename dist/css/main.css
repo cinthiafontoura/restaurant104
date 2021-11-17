@@ -2,11 +2,13 @@
   display: flex;
   justify-content: center;
   align-content: center;
+  align-items: center;
   padding-top: 40vh; }
   .btn-menu .btn {
+    align-self: center;
     width: 150px;
     text-align: center;
-    margin: 10px; }
+    margin: 0 5px; }
 
 .menus {
   margin: 3%; }
@@ -27,7 +29,7 @@
 .menus__courses {
   text-decoration: underline;
   font-weight: 500;
-  margin-top: 50px; }
+  margin: 60px 0 30px; }
 
 .menu__item {
   font-size: 1rem;
@@ -38,6 +40,10 @@
   font-size: 0.6rem;
   display: inline-block;
   text-transform: none; }
+
+.menu__vegetarian {
+  width: 20px;
+  height: 20px; }
 
 .menu__item-description {
   font-size: 0.85rem;
@@ -52,12 +58,6 @@
 .menus__morning-menu {
   padding: 4rem 0 4rem; }
 
-hr {
-  width: 100%;
-  background-color: #fff;
-  height: 3px;
-  margin-top: 4rem; }
-
 .menus__lunch-menu {
   padding: 4rem 0 4rem; }
 
@@ -66,6 +66,18 @@ hr {
 
 .menus__brunch-menu {
   padding: 4rem 0 4rem; }
+
+.menus__kids-menu {
+  padding: 4rem 0 4rem; }
+
+.menus__dessert-menu {
+  padding: 4rem 0 4rem; }
+
+hr {
+  width: 100%;
+  background-color: #fff;
+  height: 3px;
+  margin-top: 4rem; }
 
 .navbar-btn {
   position: absolute;
@@ -194,7 +206,7 @@ h2 {
 .btn:link,
 .btn:visited {
   display: inline-block;
-  padding: 10px 30px;
+  padding: 10px 10px;
   font-weight: 300;
   text-decoration: none;
   border-radius: 10px;
@@ -209,6 +221,7 @@ input[type='submit'] {
 
 .btn-ghost:link,
 .btn-ghost:visited {
+  background: rgba(0, 0, 0, 0.2);
   border: 1px solid #dda006;
   color: #dda006; }
 
@@ -227,8 +240,8 @@ input[type='submit']:active {
 
 .btn-ghost:hover,
 .btn-ghost:active {
-  background: #ba8705;
-  border: 1px solid #ba8705;
+  background: rgba(221, 160, 6, 0.3);
+  border: 1px solid #dda006;
   color: #fff; }
 
 .btn-top {
@@ -243,7 +256,8 @@ input[type='submit']:active {
   text-decoration: none;
   border-radius: 10px;
   color: #fff;
-  transition: all 0.5s ease-out; }
+  transition: all 0.5s ease-out;
+  z-index: 999; }
 
 /* ------------------------------------ */
 /* HEADER */
@@ -256,7 +270,7 @@ input[type='submit']:active {
   background-attachment: fixed; }
 
 .menu-header {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/greek-salad.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/hero-menu.jpg");
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -270,10 +284,6 @@ input[type='submit']:active {
   justify-content: flex-end;
   text-align: right;
   height: 50%; }
-
-.hero-text .btn-full:link,
-.hero-text .btn-full:visited {
-  margin-right: 15px; }
 
 .navbar {
   display: flex;
@@ -398,10 +408,6 @@ input[type='submit']:active {
     font-size: 18px; }
   .row {
     padding: 0 2%; }
-  .days {
-    padding-right: 35%; }
-  .hours {
-    padding-left: 11%; }
   .footer {
     display: flex;
     flex-direction: column;
@@ -438,6 +444,24 @@ input[type='submit']:active {
     font-size: 16px; }
   .row {
     padding: 0; }
+  .home-header {
+    display: none; }
+  .menu-header {
+    display: none; }
+  .home-header-mobile {
+    display: inherit;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/hero-mobile.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed; }
+  .menu-header-mobile {
+    display: inherit;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/hero-menu-mobile.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed; }
   .hero-text {
     align-items: center;
     text-align: center; }
@@ -450,14 +474,14 @@ input[type='submit']:active {
     align-items: center; }
     .navbar .logo {
       width: 150px;
-      margin: 10vh 0 0; }
+      margin: 8vh 0 0; }
     .navbar .main-nav {
       margin-top: 27px; }
       .navbar .main-nav li {
         margin-left: 8px; }
   .btn-menu {
     flex-direction: column;
-    padding-top: 10vh; }
+    padding-top: 4vh; }
     .btn-menu .btn {
       align-self: center;
       margin: 0;
@@ -466,16 +490,12 @@ input[type='submit']:active {
   a:visited {
     border: 0; }
   .btn:link,
-  .btn:visited,
-  input[type='submit'] {
+  .btn:visited {
     display: block;
-    padding: 15px 40px;
+    padding: 10px 0;
     margin: 10px 0;
-    font-size: 120%; }
-  .btn-ghost:link,
-  .btn-ghost:visited {
-    background: #303a2e;
-    color: #fff; }
+    font-size: 120%;
+    text-align: center; }
   .hero-text .btn-full:link,
   .hero-text .btn-full:visited {
     margin-right: 0; }
@@ -499,7 +519,7 @@ input[type='submit']:active {
     font-size: 110%;
     margin: 0 0 20px; }
   .section-testimonials {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/bg-customer-2.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/bg-customer-2-mobile.jpg);
     background-size: cover;
     color: #fff;
     background-attachment: fixed;
@@ -526,4 +546,9 @@ input[type='submit']:active {
 /* Very small phones: from 0px to 369px */
 @media only screen and (max-width: 369px) {
   .hero-text h1 {
-    font-size: 195%; } }
+    font-size: 195%; }
+  .navbar .logo {
+    margin: 4vh 0 0; }
+  .btn:link,
+  .btn:visited {
+    margin: 5px 0; } }

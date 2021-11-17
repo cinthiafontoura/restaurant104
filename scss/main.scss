@@ -51,7 +51,7 @@ h2 {
 .btn:link,
 .btn:visited {
 	display: inline-block;
-	padding: 10px 30px;
+	padding: 10px 10px;
 	font-weight: 300;
 	text-decoration: none;
 	border-radius: 10px;
@@ -68,6 +68,7 @@ input[type='submit'] {
 
 .btn-ghost:link,
 .btn-ghost:visited {
+	background: transparentize(#000, 0.8);
 	border: 1px solid $secundary-color;
 	color: $secundary-color;
 }
@@ -89,8 +90,8 @@ input[type='submit']:active {
 
 .btn-ghost:hover,
 .btn-ghost:active {
-	background: darken($secundary-color, 7);
-	border: 1px solid darken($secundary-color, 7);
+	background: transparentize($secundary-color, 0.7);
+	border: 1px solid $secundary-color;
 	color: $text-color;
 }
 
@@ -107,6 +108,7 @@ input[type='submit']:active {
 	border-radius: 10px;
 	color: $text-color;
 	@include easeOut;
+	z-index: 999;
 }
 
 /* ------------------------------------ */
@@ -123,7 +125,7 @@ input[type='submit']:active {
 
 .menu-header {
 	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-		url('../img/greek-salad.jpg');
+		url('../img/hero-menu.jpg');
 	background-size: cover;
 	background-position: center;
 	height: 100vh;
@@ -138,11 +140,6 @@ input[type='submit']:active {
 	justify-content: flex-end;
 	text-align: right;
 	height: 50%;
-}
-
-.hero-text .btn-full:link,
-.hero-text .btn-full:visited {
-	margin-right: 15px;
 }
 
 .navbar {

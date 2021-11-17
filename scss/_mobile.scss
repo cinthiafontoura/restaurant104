@@ -15,14 +15,6 @@
 		padding: 0 2%;
 	}
 
-	.days {
-		padding-right: 35%;
-	}
-
-	.hours {
-		padding-left: 11%;
-	}
-
 	.footer {
 		display: flex;
 		flex-direction: column;
@@ -77,6 +69,34 @@
 		padding: 0;
 	}
 
+	.home-header {
+		display: none;
+	}
+
+	.menu-header {
+		display: none;
+	}
+
+	.home-header-mobile {
+		display: inherit;
+		background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+			url('../img/hero-mobile.jpg');
+		background-size: cover;
+		background-position: center;
+		height: 100vh;
+		background-attachment: fixed;
+	}
+
+	.menu-header-mobile {
+		display: inherit;
+		background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+			url('../img/hero-menu-mobile.jpg');
+		background-size: cover;
+		background-position: center;
+		height: 100vh;
+		background-attachment: fixed;
+	}
+
 	.hero-text {
 		align-items: center;
 		text-align: center;
@@ -93,7 +113,7 @@
 		align-items: center;
 		.logo {
 			width: 150px;
-			margin: 10vh 0 0;
+			margin: 8vh 0 0;
 		}
 
 		.main-nav {
@@ -107,12 +127,10 @@
 
 	.btn-menu {
 		flex-direction: column;
-
-		padding-top: 10vh;
+		padding-top: 4vh;
 
 		.btn {
 			align-self: center;
-
 			margin: 0;
 			padding: 0;
 		}
@@ -124,18 +142,12 @@
 	}
 
 	.btn:link,
-	.btn:visited,
-	input[type='submit'] {
+	.btn:visited {
 		display: block;
-		padding: 15px 40px;
+		padding: 10px 0;
 		margin: 10px 0;
 		font-size: 120%;
-	}
-
-	.btn-ghost:link,
-	.btn-ghost:visited {
-		background: $primary-color;
-		color: $text-color;
+		text-align: center;
 	}
 
 	.hero-text .btn-full:link,
@@ -178,7 +190,7 @@
 
 	.section-testimonials {
 		background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-			url(../img/bg-customer-2.jpg);
+			url(../img/bg-customer-2-mobile.jpg);
 		background-size: cover;
 		color: $text-color;
 		background-attachment: fixed;
@@ -228,5 +240,16 @@
 @media only screen and (max-width: 369px) {
 	.hero-text h1 {
 		font-size: 195%;
+	}
+
+	.navbar {
+		.logo {
+			margin: 4vh 0 0;
+		}
+	}
+
+	.btn:link,
+	.btn:visited {
+		margin: 5px 0;
 	}
 }

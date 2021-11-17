@@ -2,12 +2,14 @@
 	display: flex;
 	justify-content: center;
 	align-content: center;
+	align-items: center;
 	padding-top: 40vh;
 
 	.btn {
+		align-self: center;
 		width: 150px;
 		text-align: center;
-		margin: 10px;
+		margin: 0 5px;
 	}
 }
 
@@ -34,7 +36,7 @@
 .menus__courses {
 	text-decoration: underline;
 	font-weight: 500;
-	margin-top: 50px;
+	margin: 60px 0 30px;
 }
 
 .menu__item {
@@ -47,6 +49,11 @@
 	font-size: 0.6rem;
 	display: inline-block;
 	text-transform: none;
+}
+
+.menu__vegetarian {
+	width: 20px;
+	height: 20px;
 }
 
 .menu__item-description {
@@ -65,13 +72,6 @@
 	padding: 4rem 0 4rem;
 }
 
-hr {
-	width: 100%;
-	background-color: #fff;
-	height: 3px;
-	margin-top: 4rem;
-}
-
 .menus__lunch-menu {
 	padding: 4rem 0 4rem;
 }
@@ -82,6 +82,21 @@ hr {
 
 .menus__brunch-menu {
 	padding: 4rem 0 4rem;
+}
+
+.menus__kids-menu {
+	padding: 4rem 0 4rem;
+}
+
+.menus__dessert-menu {
+	padding: 4rem 0 4rem;
+}
+
+hr {
+	width: 100%;
+	background-color: #fff;
+	height: 3px;
+	margin-top: 4rem;
 }
 
 .navbar-btn {
