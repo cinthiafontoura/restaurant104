@@ -62,7 +62,7 @@
 /* Small phones to small tablets: 481 to 767px */
 @media only screen and (max-width: 768px) {
 	body {
-		font-size: 16px;
+		font-size: 14px;
 	}
 
 	.row {
@@ -113,7 +113,7 @@
 		align-items: center;
 		.logo {
 			width: 150px;
-			margin: 8vh 0 0;
+			margin: 16vh 0 0;
 		}
 
 		.main-nav {
@@ -127,7 +127,7 @@
 
 	.btn-menu {
 		flex-direction: column;
-		padding-top: 4vh;
+		padding-top: 16vh;
 
 		.btn {
 			align-self: center;
@@ -227,6 +227,15 @@
 			height: 50vh;
 		}
 	}
+
+	.menus__items {
+		justify-content: flex-start;
+		flex-direction: column;
+	}
+
+	.menu__price {
+		text-align: left;
+	}
 }
 
 /* Small phones: from 370px to 480px */
@@ -244,12 +253,12 @@
 
 	.navbar {
 		.logo {
-			margin: 4vh 0 0;
+			margin: 12vh 0 0;
 		}
 	}
 
 	.btn:link,
 	.btn:visited {
-		margin: 5px 0;
+		margin: 8px 0;
 	}
 }

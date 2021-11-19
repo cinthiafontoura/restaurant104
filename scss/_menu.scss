@@ -15,16 +15,16 @@
 
 .menus {
 	margin: 3%;
-}
 
-.menus__titles {
-	font-weight: 500;
-	margin-bottom: 1.5rem;
-}
+	&__titles {
+		font-weight: 500;
+		margin-bottom: 1.5rem;
 
-.menus__titles-information {
-	text-align: center;
-	margin-bottom: 4rem;
+		&-information {
+			text-align: center;
+			margin-bottom: 4rem;
+		}
+	}
 }
 
 .menus__items {
@@ -54,7 +54,6 @@
 .menu__vegetarian {
 	width: 20px;
 	height: 20px;
-	color: green;
 }
 
 .menu__item-description {
