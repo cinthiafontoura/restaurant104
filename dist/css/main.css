@@ -100,7 +100,7 @@ hr {
 /* VER DOUBLE VERTICAL SLIDER - SECTION 27 */
 /* VER NETFLIX NAVBAR - SECTION 45 */
 .section-testimonials {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/bg-customer-2.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("../img/bg-testimonials2.jpg");
   background-size: cover;
   color: #fff;
   background-attachment: fixed;
@@ -448,7 +448,7 @@ input[type='submit']:active {
     display: none; }
   .home-header-mobile {
     display: inherit;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/hero-mobile.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.6), #00000099), url("../img/hero-mobile.jpg");
     background-size: cover;
     background-position: center;
     height: 100vh;
