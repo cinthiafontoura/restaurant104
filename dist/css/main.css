@@ -102,6 +102,9 @@ hr {
 .section-testimonials {
   background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("../img/bg-testimonials2.jpg");
   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   color: #fff;
   background-attachment: fixed;
   padding: 5% 0; }
@@ -263,6 +266,9 @@ input[type='submit']:active {
 .home-header {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/hero.jpg");
   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-position: center;
   height: 100vh;
   background-attachment: fixed; }
@@ -270,6 +276,9 @@ input[type='submit']:active {
 .menu-header {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/hero-menu.jpg");
   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-position: center;
   height: 100vh;
   background-attachment: fixed; }
@@ -395,6 +404,11 @@ input[type='submit']:active {
     font-size: 0.8rem;
     padding: 1.5rem 0 0; }
 
+/* Big tablets to 1200px (widths smaller than the 1140px row) 1668x2388 apple */
+@media only screen and (max-width: 2388px) {
+  .row {
+    padding: 0 2%; } }
+
 /* Big tablets to 1200px (widths smaller than the 1140px row) */
 @media only screen and (max-width: 1200px) {
   .row {
@@ -450,6 +464,9 @@ input[type='submit']:active {
     display: inherit;
     background: linear-gradient(rgba(0, 0, 0, 0.6), #00000099), url("../img/hero-mobile.jpg");
     background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-position: center;
     height: 100vh;
     background-attachment: fixed; }
@@ -457,6 +474,9 @@ input[type='submit']:active {
     display: inherit;
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/hero-menu-mobile.jpg");
     background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-position: center;
     height: 100vh;
     background-attachment: fixed; }
@@ -519,6 +539,9 @@ input[type='submit']:active {
   .section-testimonials {
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/bg-customer-2-mobile.jpg);
     background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     color: #fff;
     background-attachment: fixed;
     padding: 5% 0; }

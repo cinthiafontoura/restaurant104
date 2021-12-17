@@ -2,6 +2,9 @@
 	background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
 		url('../img/bg-testimonials2.jpg');
 	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
 	color: $text-color;
 	background-attachment: fixed;
 	padding: 5% 0;
