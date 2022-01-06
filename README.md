@@ -10,8 +10,8 @@ Check the live project --> https://restaurant104.ie
 
 <ul>
   <li>HTML5</li>
-  <li>CSS3 (at the beginning)</li>
-  <li>Sass (in process)</li>
+  <li>CSS3</li>
+  <li>Sass</li>
   <li>Flexbox</li> 
 </ul>
 
