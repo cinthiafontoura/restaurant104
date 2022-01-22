@@ -121,9 +121,11 @@ input[type='submit']:active {
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	background-position: center;
+	background-position: center center;
+	background-repeat: no-repeat;
 	height: 100vh;
-	background-attachment: fixed;
+	width: 100vw;
+	position: fixed;
 }
 
 .menu-header {
@@ -133,9 +135,11 @@ input[type='submit']:active {
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	background-position: center;
+	background-position: center center;
+	background-repeat: no-repeat;
 	height: 100vh;
-	background-attachment: fixed;
+	width: 100vw;
+	position: fixed;
 }
 
 .hero-text {

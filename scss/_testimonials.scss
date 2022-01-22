@@ -5,8 +5,11 @@
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	color: $text-color;
-	background-attachment: fixed;
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 100vh;
+	width: 100vw;
+	position: fixed;
 	padding: 5% 0;
 
 	.testimonials {
