@@ -3,7 +3,7 @@
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  height: 100vh;
+  height: 80vh;
   width: 100vw; }
 
 .btn-menu {
@@ -197,7 +197,16 @@ hr {
   .footer__copy {
     color: #888;
     font-size: 0.8rem;
-    padding: 1.5rem 0 0; }
+    padding: 1.5rem 0 0;
+    text-align: center; }
+    .footer__copy p {
+      margin-top: 20px; }
+      .footer__copy p a {
+        text-decoration: none;
+        color: #888; }
+        .footer__copy p a:hover {
+          color: #dda006;
+          transition: all 0.5s ease-out; }
 
 * {
   margin: 0;
@@ -219,9 +228,10 @@ html {
 /* ------------------------------------ */
 /* REUSABLE COMPONENTS */
 /* ------------------------------------ */
-.row {
-  max-width: 1450px;
-  margin: 0 auto; }
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 10px; }
 
 h1,
 h2,
@@ -456,14 +466,14 @@ input[type='submit']:active {
     background: linear-gradient(rgba(0, 0, 0, 0.6), #00000099), url("../img/hero-mobile.jpg");
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 80vh;
     background-attachment: fixed; }
   .menu-header-mobile {
     display: inherit;
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/hero-menu-mobile.jpg");
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 80vh;
     background-attachment: fixed; }
   .hero-text {
     align-items: center;

@@ -45,5 +45,20 @@
 		color: $footer-text;
 		font-size: 0.8rem;
 		padding: 1.5rem 0 0;
+		text-align: center;
+
+		& p {
+			margin-top: 20px;
+
+			& a {
+				text-decoration: none;
+				color: $footer-text;
+
+				&:hover {
+					color: $secundary-color;
+					@include easeOut;
+				}
+			}
+		}
 	}
 }

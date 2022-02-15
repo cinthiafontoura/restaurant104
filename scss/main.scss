@@ -22,9 +22,10 @@ html {
 /* ------------------------------------ */
 /* REUSABLE COMPONENTS */
 /* ------------------------------------ */
-.row {
-	max-width: 1450px;
+.container {
+	max-width: 1200px;
 	margin: 0 auto;
+	padding: 0 10px;
 }
 
 h1,
