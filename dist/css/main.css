@@ -3,7 +3,7 @@
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  height: 80vh;
+  height: 100vh;
   width: 100vw; }
 
 .btn-menu {
@@ -407,19 +407,19 @@ input[type='submit']:active {
 
 /* Big tablets to 1200px (widths smaller than the 1140px row) 1668x2388 apple */
 @media only screen and (max-width: 2388px) {
-  .row {
+  .container {
     padding: 0 2%; } }
 
 /* Big tablets to 1200px (widths smaller than the 1140px row) */
 @media only screen and (max-width: 1200px) {
-  .row {
+  .container {
     padding: 0 2%; } }
 
 /* Small tablets to big tablets: 768 to 1024px */
 @media only screen and (max-width: 1024px) {
   body {
     font-size: 18px; }
-  .row {
+  .container {
     padding: 0 2%; }
   .footer {
     display: flex;
@@ -466,14 +466,14 @@ input[type='submit']:active {
     background: linear-gradient(rgba(0, 0, 0, 0.6), #00000099), url("../img/hero-mobile.jpg");
     background-size: cover;
     background-position: center;
-    height: 80vh;
+    height: 100vh;
     background-attachment: fixed; }
   .menu-header-mobile {
     display: inherit;
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/hero-menu-mobile.jpg");
     background-size: cover;
     background-position: center;
-    height: 80vh;
+    height: 100vh;
     background-attachment: fixed; }
   .hero-text {
     align-items: center;
@@ -494,7 +494,7 @@ input[type='submit']:active {
         margin-left: 8px; }
   .btn-menu {
     flex-direction: column;
-    padding-top: 16vh; }
+    padding-top: 5vh; }
     .btn-menu .btn {
       align-self: center;
       margin: 0;

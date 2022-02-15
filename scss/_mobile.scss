@@ -1,13 +1,13 @@
 /* Big tablets to 1200px (widths smaller than the 1140px row) 1668x2388 apple */
 @media only screen and (max-width: 2388px) {
-	.row {
+	.container {
 		padding: 0 2%;
 	}
 }
 
 /* Big tablets to 1200px (widths smaller than the 1140px row) */
 @media only screen and (max-width: 1200px) {
-	.row {
+	.container {
 		padding: 0 2%;
 	}
 }
@@ -18,7 +18,7 @@
 		font-size: 18px;
 	}
 
-	.row {
+	.container {
 		padding: 0 2%;
 	}
 
@@ -90,7 +90,7 @@
 			url('../img/hero-mobile.jpg');
 		background-size: cover;
 		background-position: center;
-		height: 80vh;
+		height: 100vh;
 		background-attachment: fixed;
 	}
 
@@ -100,7 +100,7 @@
 			url('../img/hero-menu-mobile.jpg');
 		background-size: cover;
 		background-position: center;
-		height: 80vh;
+		height: 100vh;
 		background-attachment: fixed;
 	}
 
@@ -134,7 +134,7 @@
 
 	.btn-menu {
 		flex-direction: column;
-		padding-top: 16vh;
+		padding-top: 5vh;
 
 		.btn {
 			align-self: center;
