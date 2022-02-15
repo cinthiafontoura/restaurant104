@@ -89,9 +89,6 @@
 		background: linear-gradient(rgba(0, 0, 0, 0.6), #00000099),
 			url('../img/hero-mobile.jpg');
 		background-size: cover;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
 		background-position: center;
 		height: 100vh;
 		background-attachment: fixed;
@@ -102,9 +99,6 @@
 		background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
 			url('../img/hero-menu-mobile.jpg');
 		background-size: cover;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
 		background-position: center;
 		height: 100vh;
 		background-attachment: fixed;
@@ -205,9 +199,6 @@
 		background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
 			url(../img/bg-customer-2-mobile.jpg);
 		background-size: cover;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
 		color: $text-color;
 		background-attachment: fixed;
 		padding: 5% 0;

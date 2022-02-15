@@ -1,3 +1,11 @@
+.menu-header {
+  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("../img/hero-menu.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw; }
+
 .btn-menu {
   display: flex;
   justify-content: center;
@@ -92,21 +100,16 @@ hr {
   background: #fff;
   transition: all 0.5s ease-out; }
 
-/* Rotate Into X With Menu Lines */
-.close {
-  transform: rotate(180deg); }
-
-/* VER NAVGATION ANIMATION  - SECTION 15*/
-/* VER DOUBLE VERTICAL SLIDER - SECTION 27 */
-/* VER NETFLIX NAVBAR - SECTION 45 */
+/* ------------------------------------ */
+/* TESTIMONIALS */
+/* ------------------------------------ */
 .section-testimonials {
   background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("../img/bg-testimonials2.jpg");
   background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  color: #fff;
-  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100vw;
   padding: 5% 0; }
   .section-testimonials .testimonials {
     display: flex;
@@ -162,6 +165,40 @@ hr {
     height: 60vh;
     margin-bottom: 5%; }
 
+/* ------------------------------------ */
+/* FOOTER */
+/* ------------------------------------ */
+.footer {
+  background: #20261e;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem 0; }
+  .footer__links {
+    display: flex;
+    width: 100%;
+    justify-content: space-between; }
+    .footer__links li {
+      display: inline-block;
+      list-style: none; }
+      .footer__links li a {
+        text-decoration: none;
+        color: #888;
+        padding: 0 10px; }
+        .footer__links li a:hover {
+          color: #dda006;
+          transition: all 0.5s ease-out; }
+    .footer__links-104 {
+      width: 50%;
+      text-align: left; }
+    .footer__links-social {
+      width: 50%;
+      text-align: right;
+      font-size: 2rem; }
+  .footer__copy {
+    color: #888;
+    font-size: 0.8rem;
+    padding: 1.5rem 0 0; }
+
 * {
   margin: 0;
   padding: 0;
@@ -196,7 +233,7 @@ h3 {
 h1 {
   font-size: 350%;
   margin: 0 0 5%;
-  letter-spacing: 1.5%; }
+  letter-spacing: 1.5px; }
 
 h2 {
   margin: 0 auto 5%;
@@ -264,24 +301,12 @@ input[type='submit']:active {
 /* HEADER */
 /* ------------------------------------ */
 .home-header {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/hero.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("../img/hero.jpg");
   background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-position: center;
+  background-position: center center;
+  background-repeat: no-repeat;
   height: 100vh;
-  background-attachment: fixed; }
-
-.menu-header {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/hero-menu.jpg");
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-position: center;
-  height: 100vh;
-  background-attachment: fixed; }
+  width: 100vw; }
 
 .hero-text {
   color: #fff;
@@ -370,40 +395,6 @@ input[type='submit']:active {
   margin: 0 auto 6%;
   font-size: 120%; }
 
-/* ------------------------------------ */
-/* FOOTER */
-/* ------------------------------------ */
-.footer {
-  background: #20261e;
-  display: flex;
-  flex-direction: column;
-  padding: 1.5rem 0; }
-  .footer__links {
-    display: flex;
-    width: 100%;
-    justify-content: space-between; }
-    .footer__links li {
-      display: inline-block;
-      list-style: none; }
-      .footer__links li a {
-        text-decoration: none;
-        color: #888;
-        padding: 0 10px; }
-        .footer__links li a:hover {
-          color: #dda006;
-          transition: all 0.5s ease-out; }
-    .footer__links-104 {
-      width: 50%;
-      text-align: left; }
-    .footer__links-social {
-      width: 50%;
-      text-align: right;
-      font-size: 2rem; }
-  .footer__copy {
-    color: #888;
-    font-size: 0.8rem;
-    padding: 1.5rem 0 0; }
-
 /* Big tablets to 1200px (widths smaller than the 1140px row) 1668x2388 apple */
 @media only screen and (max-width: 2388px) {
   .row {
@@ -464,9 +455,6 @@ input[type='submit']:active {
     display: inherit;
     background: linear-gradient(rgba(0, 0, 0, 0.6), #00000099), url("../img/hero-mobile.jpg");
     background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-position: center;
     height: 100vh;
     background-attachment: fixed; }
@@ -474,9 +462,6 @@ input[type='submit']:active {
     display: inherit;
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/hero-menu-mobile.jpg");
     background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-position: center;
     height: 100vh;
     background-attachment: fixed; }
@@ -539,9 +524,6 @@ input[type='submit']:active {
   .section-testimonials {
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/bg-customer-2-mobile.jpg);
     background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     color: #fff;
     background-attachment: fixed;
     padding: 5% 0; }

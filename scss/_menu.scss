@@ -1,3 +1,8 @@
+.menu-header {
+	@include bg-img-fixed('../img/hero-menu.jpg', 100vh);
+}
+
+// older code
 .btn-menu {
 	display: flex;
 	justify-content: center;
@@ -115,15 +120,3 @@ hr {
 	background: #fff;
 	transition: all 0.5s ease-out;
 }
-
-/* Rotate Into X With Menu Lines */
-
-.close {
-	transform: rotate(180deg);
-}
-
-/* VER NAVGATION ANIMATION  - SECTION 15*/
-
-/* VER DOUBLE VERTICAL SLIDER - SECTION 27 */
-
-/* VER NETFLIX NAVBAR - SECTION 45 */

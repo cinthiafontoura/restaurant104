@@ -1,4 +1,4 @@
-@import 'config', 'menu', 'testimonials', 'contact';
+@import 'config', 'menu', 'testimonials', 'contact', 'footer';
 
 * {
 	margin: 0;
@@ -38,7 +38,7 @@ h3 {
 h1 {
 	font-size: 350%;
 	margin: 0 0 5%;
-	letter-spacing: 1.5%;
+	letter-spacing: 1.5px;
 }
 
 h2 {
@@ -115,31 +115,7 @@ input[type='submit']:active {
 /* HEADER */
 /* ------------------------------------ */
 .home-header {
-	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-		url('../img/hero.jpg');
-	background-size: cover;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-position: center center;
-	background-repeat: no-repeat;
-	height: 100vh;
-	width: 100vw;
-	position: fixed;
-}
-
-.menu-header {
-	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-		url('../img/hero-menu.jpg');
-	background-size: cover;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-position: center center;
-	background-repeat: no-repeat;
-	height: 100vh;
-	width: 100vw;
-	position: fixed;
+	@include bg-img-fixed('../img/hero.jpg', 100vh);
 }
 
 .hero-text {
@@ -247,56 +223,6 @@ input[type='submit']:active {
 	width: 75%;
 	margin: 0 auto 6%;
 	font-size: 120%;
-}
-
-/* ------------------------------------ */
-/* FOOTER */
-/* ------------------------------------ */
-
-.footer {
-	background: darken($primary-color, 7);
-	display: flex;
-	flex-direction: column;
-	padding: 1.5rem 0;
-
-	&__links {
-		display: flex;
-		width: 100%;
-		justify-content: space-between;
-
-		& li {
-			display: inline-block;
-			list-style: none;
-
-			& a {
-				text-decoration: none;
-				color: $footer-text;
-				padding: 0 10px;
-
-				&:hover {
-					color: $secundary-color;
-					@include easeOut;
-				}
-			}
-		}
-
-		&-104 {
-			width: 50%;
-			text-align: left;
-		}
-
-		&-social {
-			width: 50%;
-			text-align: right;
-			font-size: 2rem;
-		}
-	}
-
-	&__copy {
-		color: $footer-text;
-		font-size: 0.8rem;
-		padding: 1.5rem 0 0;
-	}
 }
 
 @import 'mobile';

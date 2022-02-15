@@ -6,3 +6,13 @@ $footer-text: #888;
 @mixin easeOut {
 	transition: all 0.5s ease-out;
 }
+
+@mixin bg-img-fixed($url, $height) {
+	background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+		url($url);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: $height;
+	width: 100vw;
+}

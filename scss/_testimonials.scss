@@ -1,15 +1,9 @@
+/* ------------------------------------ */
+/* TESTIMONIALS */
+/* ------------------------------------ */
+
 .section-testimonials {
-	background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
-		url('../img/bg-testimonials2.jpg');
-	background-size: cover;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-position: center center;
-	background-repeat: no-repeat;
-	height: 100vh;
-	width: 100vw;
-	position: fixed;
+	@include bg-img-fixed('../img/bg-testimonials2.jpg', 100%);
 	padding: 5% 0;
 
 	.testimonials {
