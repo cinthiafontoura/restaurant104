@@ -455,7 +455,7 @@ input[type='submit']:active {
 @media only screen and (max-width: 768px) {
   body {
     font-size: 14px; }
-  .row {
+  .container {
     padding: 0; }
   .home-header {
     display: none; }
@@ -489,9 +489,10 @@ input[type='submit']:active {
       width: 150px;
       margin: 16vh 0 0; }
     .navbar .main-nav {
-      margin-top: 27px; }
+      margin-top: 27px;
+      text-align: center; }
       .navbar .main-nav li {
-        margin-left: 8px; }
+        margin: 8px; }
   .btn-menu {
     flex-direction: column;
     padding-top: 5vh; }
