@@ -1,0 +1,49 @@
+.btn {
+	@include easeOut;
+  background: $secundary-color;
+	border: 1px solid $secundary-color;
+  border-radius: 8px;
+	color: $text-color;
+	display: inline-block;  
+	font-weight: 300;
+	padding: 10px 12px;
+	text-decoration: none;
+
+  &:hover {
+    background: darken($secundary-color, 7);
+    border: 1px solid darken($secundary-color, 7);
+  }	
+
+  &__ghost {
+    background: transparentize(#000, 0.8);
+    border: 1px solid $secundary-color;
+    color: $secundary-color;
+
+    &:hover{
+      background: transparentize($secundary-color, 0.7);
+      border: 1px solid $secundary-color;
+      color: $text-color;
+    }
+  }
+
+  &__pageup {
+    @include easeOut;
+    border-radius: 8px;
+    bottom: 15px;
+    color: $secundary-color;	
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px 12px;
+    position: fixed;
+    right: 15px;	
+    text-decoration: none;
+    z-index: 200;
+  }
+
+  &__menu {
+		align-self: center;
+		margin: 0 5px;
+		text-align: center;		
+    width: 150px;
+	}
+}

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, inicial-scale=1.0" />
@@ -17,22 +17,18 @@
 		/>
 		<meta name="author" content="Restaurant 104" />
 		<link rel="stylesheet" href="css/main.css" />
-
 		<link rel="preconnect" href="https://fonts.gstatic.com" />
-		<link
-			rel="stylesheet"
-			href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,500;0,700;1,300;1,400&display=swap"
-		/>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,500;0,700;1,300;1,400&display=swap"/>
 		<title>Restaurant 104</title>
 	</head>
-
 	<body>
-		<header id="top" class="home-header home-header-mobile">
+		<header id="pageup" class="home-header home-header-mobile">
+			<!-- <button class="menu-mobile"><i class="fa-solid fa-bars"></i></button> -->
 			<nav class="container navbar">
 				<div>
-					<a href="index.html"
-						><img class="logo" src="img/logo-white.svg" alt="Logo Restaurant 104"
-					/></a>
+					<a href="index.html#pageup">
+						<img class="logo" src="img/logo-white.svg" alt="Logo Restaurant 104"/>
+					</a>
 				</div>
 				<ul class="main-nav">
 					<li>
@@ -51,11 +47,32 @@
 						<a href="#contact">Contact</a>
 					</li>
 				</ul>
-			</nav>
-			<a href="#top" class="btn-ghost btn-top">
-				<i class="fas fa-arrow-up"></i>
-			</a>
+			</nav>			
+			<a href="#pageup" class="btn__ghost btn__pageup">Top</a>
 		</header>
+		<!-- <nav class="mobile-navbar">
+			<ul class="main-nav">
+				<li>
+					<a href="index.html#pageup">
+						<img class="mobile-navbar__logo" src="img/logo-white.svg" alt="Logo Restaurant 104"></a>
+				</li>
+				<li>
+					<a href="menu.html">Menus</a>
+				</li>
+				<li>
+					<a href="index.html#book">Book a Table</a>
+				</li>
+				<li>
+					<a href="#voucher">Vouchers</a>
+				</li>
+				<li>
+					<a href="#about-us">About Us</a>
+				</li>
+				<li>
+					<a href="#contact">Contact</a>
+				</li>
+			</ul>				
+		</nav> -->
 		<section class="section-content">
 			<div id="book" class="container content-reverse">
 				<div class="content-box image-content">
@@ -116,7 +133,7 @@
 					</p>
 
 					<a
-						class="btn btn-full"
+						class="btn"
 						href="https://restaurant104.voucherconnect.com/product/3041"
 						target="_blank"
 						>Buy my gift</a
@@ -246,9 +263,10 @@
 			</div>
 			<div class="footer__copy container">
 				<p>&copy; 2021-2022 Restaurant 104</p>
-				<p>Design and Development <br>by <a href="https://www.linkedin.com/in/cinthiafontouras/" target="_blank">Cinthia Fontoura</a></p>
+				<p>Website by <a href="https://cinthiafontoura.com/" target="_blank">Cinthia Fontoura</a></p>
 			</div>
 		</footer>
+		<script src="javascript/index.js"></script>
 		<!-- scripts TableIn 1 -->
 		<script src="https://app.tablein.com/sites/all/modules/custom/cumo_widget/js/code_outside_iframe.js?v2" type="text/javascript"></script>
 		<!-- scripts TableIn buttom -->

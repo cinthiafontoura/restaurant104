@@ -77,50 +77,22 @@
 	}
 
 	.home-header {
-		display: none;
+		@include bg-img-fixed('../img/hero-mobile.jpg', 100vh);
 	}
 
 	.menu-header {
-		display: none;
+		@include bg-img-fixed('../img/hero-menu-mobile.jpg', 80vh);
 	}
 
-	.home-header-mobile {
-		display: inherit;
-		background: linear-gradient(rgba(0, 0, 0, 0.6), #00000099),
-			url('../img/hero-mobile.jpg');
-		background-size: cover;
-		background-position: center;
-		height: 100vh;
-		background-attachment: fixed;
-	}
-
-	.menu-header-mobile {
-		display: inherit;
-		background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-			url('../img/hero-menu-mobile.jpg');
-		background-size: cover;
-		background-position: center;
-		height: 100vh;
-		background-attachment: fixed;
-	}
-
-	.hero-text {
-		align-items: center;
-		text-align: center;
-	}
-
-	.hero-text h1 {
-		font-size: 230%;
-		font-weight: 300;
-		padding-bottom: 20px;
-	}
 
 	.navbar {
+		// display: none;
+
 		flex-direction: column-reverse;
 		align-items: center;
 		.logo {
 			width: 150px;
-			margin: 16vh 0 0;
+			margin: 30px 0 0;
 		}
 
 		.main-nav {
@@ -133,35 +105,31 @@
 		}
 	}
 
-	.btn-menu {
-		flex-direction: column;
-		padding-top: 5vh;
-
-		.btn {
-			align-self: center;
-			margin: 0;
-			padding: 0;
-		}
+	.menu-mobile {
+		padding: 15px;
 	}
-
-	a:link,
-	a:visited {
-		border: 0;
-	}
-
-	.btn:link,
-	.btn:visited {
+	.btn {
 		display: block;
 		padding: 10px 0;
 		margin: 10px 0;
 		font-size: 120%;
-		text-align: center;
+		text-align: center;		
+		
+		&__menu {
+			align-self: center;
+			margin: 8px 0;
+			padding: 10px 0;
+		}
 	}
 
-	.hero-text .btn-full:link,
-	.hero-text .btn-full:visited {
-		margin-right: 0;
-	}
+	.menu__buttons {
+		flex-direction: column;
+		padding-top: 1vh;
+	}	 
+
+	a {
+		border: 0;
+	}	
 
 	h2 {
 		font-size: 160%;
@@ -197,11 +165,7 @@
 	}
 
 	.section-testimonials {
-		background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-			url(../img/bg-customer-2-mobile.jpg);
-		background-size: cover;
-		color: $text-color;
-		background-attachment: fixed;
+	@include bg-img-fixed('../img/bg-customer-2-mobile.jpg', 100%);		
 		padding: 5% 0;
 
 		.testimonials {
@@ -255,18 +219,7 @@
 
 /* Very small phones: from 0px to 369px */
 @media only screen and (max-width: 369px) {
-	.hero-text h1 {
-		font-size: 195%;
-	}
-
-	.navbar {
-		.logo {
-			margin: 12vh 0 0;
-		}
-	}
-
-	.btn:link,
-	.btn:visited {
-		margin: 8px 0;
+	.btn__menu{
+		margin: 10px 0;
 	}
 }

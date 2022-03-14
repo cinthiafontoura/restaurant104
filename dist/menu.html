@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, inicial-scale=1.0" />
@@ -13,7 +13,7 @@
 		<title>Restaurant 104</title>
 	</head>
 
-	<body>
+	<body id="pageup">
 		<header class="menu-header menu-header-mobile">
 			<nav class="container navbar">
 				<div>
@@ -39,467 +39,291 @@
 					</li>
 				</ul>
 			</nav>
-			<div class="btn-menu">
-				<a class="btn btn-ghost" href="#morning-menu">Breakfast</a>
+			<div class="menu__buttons">
+				<a class="btn btn__ghost btn__menu" href="#morning-menu">Breakfast</a>
 
-				<a class="btn btn-ghost" href="#lunch-menu">Lunch </a>
+				<a class="btn btn__ghost btn__menu" href="#lunch-menu">Lunch </a>
 
-				<a class="btn btn-ghost" href="#dinner-menu">Dinner </a>
+				<a class="btn btn__ghost btn__menu" href="#dinner-menu">Dinner </a>
 
-				<a class="btn btn-ghost" href="#weekend-menu">Brunch </a>
-
-				<!-- <a class="btn btn-ghost" href="#kids-menu">Kids </a> -->
-
-				<!-- <a class="btn btn-ghost" href="#desserts-menu">Desserts </a> -->
+				<a class="btn btn__ghost btn__menu" href="#weekend-menu">Brunch </a>
 			</div>
-
-			<a href="#top" class="btn-ghost btn-top">
-				<i class="fas fa-arrow-up"></i>
-			</a>
+			<a href="#pageup" class="btn__ghost btn__pageup">Top</a>
 		</header>
-
 		<main class="menus">
 			<div id="morning-menu" class="container menus__morning-menu">
 				<h2 class="menus__titles">Breakfast Menu</h2>
 				<p class="menus__titles-information">Monday to Friday - 10am to 12pm</p>
-
 				<div class="menus__items">
 					<div>
 						<h3 class="menu__item">
 							Avocado Smash & Poached Eggs
-							<span class="menu__alergen">1A,3,12</span
-							><img
-								class="menu__vegetarian"
-								src="img/vegetarian.png"
-								alt="Vegetarian"
-							/>
+							<!-- <span class="menu__alergen">1A,3,12</span> -->
+							<img class="menu__vegetarian" src="img/vegetarian.png" alt="Vegetarian"/>
 						</h3>
-						<p class="menu__item-description">
-							Toasted sourdough, roast tomato, poached eggs & homemade chilli oil
-						</p>
+						<p class="menu__item-description">Toasted sourdough, roast tomato, poached eggs & homemade chilli oil</p>
 					</div>
 					<div>
 						<p class="menu__price">€10.90</p>
 					</div>
 				</div>
-
 				<div class="menus__items">
 					<div>
 						<h3 class="menu__item">
 							104&#8217;s Proper Irish Breakfast
-							<span class="menu__alergen">1A,1,3,7,9,12</span>
+							<!-- <span class="menu__alergen">1A,1,3,7,9,12</span> -->
 						</h3>
-						<p class="menu__item-description">
-							Guinness pork & leek sausage, thick-cut bacon, poached egg, grilled
-							tomato, Clonakilty black pudding, toast
-						</p>
+						<p class="menu__item-description">Guinness pork & leek sausage, thick-cut bacon, poached egg, grilled tomato, Clonakilty black pudding, toast</p>
 					</div>
 					<div>
 						<p class="menu__price">€12.50</p>
 					</div>
 				</div>
-
 				<div class="menus__items">
 					<div>
 						<h3 class="menu__item">
-							Brekkie Bap <span class="menu__alergen">1A,3,12</span>
+							Brekkie Bap 
+							<!-- <span class="menu__alergen">1A,3,12</span> -->
 						</h3>
-						<p class="menu__item-description">
-							Brioche bap, streaky bacon, Guinness pork & leek sausage, Clonakilty
-							black pudding, fried egg & relish
-						</p>
+						<p class="menu__item-description">Brioche bap, streaky bacon, Guinness pork & leek sausage, Clonakilty black pudding, fried egg & relish</p>
 					</div>
 					<div>
 						<p class="menu__price">€9.50</p>
 					</div>
 				</div>
-
 				<div class="menus__items">
 					<div>
 						<h3 class="menu__item">
-							Organic Porridge <span class="menu__alergen">1A,1,7</span
-							><img
-								class="menu__vegetarian"
-								src="img/vegetarian.png"
-								alt="Vegetarian"
-							/>
+							Home Baked Beans & Poached Eggs 
+							<!-- <span class="menu__alergen"></span> -->
+							<img class="menu__vegetarian" src="img/vegetarian.png" alt="Vegetarian"/>
 						</h3>
-						<p class="menu__item-description">
-							Organic porridge oats with banana, honey, toasted seeds
-						</p>
+						<p class="menu__item-description">sourdough toast, za’atar spice, chilli oil</p>
 					</div>
 					<div>
-						<p class="menu__price">€6.50</p>
+						<p class="menu__price">€8.50</p>
 					</div>
 				</div>
-
 				<div class="menus__items">
 					<div>
 						<h3 class="menu__item">
-							Belgian Waffles <span class="menu__alergen"> 1A,3</span
-							><img
-								class="menu__vegetarian"
-								src="img/vegetarian.png"
-								alt="Vegetarian"
-							/>
+							Belgian Waffles 
+							<!-- <span class="menu__alergen"> 1A,3</span> -->
+							<img class="menu__vegetarian" src="img/vegetarian.png" alt="Vegetarian"/>
 						</h3>
-						<p class="menu__item-description">
-							With fresh strawberries, whipped cream & a berry coulis OR with Nutella &
-							Banana
-						</p>
+						<p class="menu__item-description">With fresh strawberries, whipped cream & a berry coulis OR with Nutella & Banana</p>
 					</div>
 					<div>
 						<p class="menu__price">€9.50</p>
 					</div>
 				</div>
-
 				<div class="menus__items">
 					<div>
 						<h3 class="menu__item">
-							Eggs Benedict <span class="menu__alergen"> 1A,1,3,7,12</span>
+							Eggs Benedict 
+							<!-- <span class="menu__alergen"> 1A,1,3,7,12</span> -->
 						</h3>
-						<p class="menu__item-description">
-							Soft muffin, poached eggs, streaky bacon, spinach & Hollandaise sauce
-						</p>
+						<p class="menu__item-description">Soft muffin, poached eggs, honey roast ham, spinach & Hollandaise sauce</p>
 					</div>
 					<div>
 						<p class="menu__price">€10.90</p>
 					</div>
 				</div>
-
 				<div class="menus__items">
 					<div>
 						<h3 class="menu__item">
-							Veggie Eggs Benedict <span class="menu__alergen"> 1A,1,3,7,12</span
-							><img
-								class="menu__vegetarian"
-								src="img/vegetarian.png"
-								alt="Vegetarian"
-							/>
+							Veggie Eggs Benedict 
+							<!-- <span class="menu__alergen"> 1A,1,3,7,12</span> -->
+							<img class="menu__vegetarian" src="img/vegetarian.png" alt="Vegetarian"/>
 						</h3>
-
-						<p class="menu__item-description">
-							Soft muffin, poached eggs, avocado, grilled mushroom, Hollandaise sauce,
-							baby spinach
-						</p>
+						<p class="menu__item-description">Soft muffin, poached eggs, avocado, grilled mushroom, Hollandaise sauce, baby spinach</p>
 					</div>
 					<div>
 						<p class="menu__price">€10.90</p>
 					</div>
 				</div>
-
 				<div class="menus__items">
 					<div>
 						<h3 class="menu__item">
-							Eggs Florentine <span class="menu__alergen">1A,3,12</span
-							><img
-								class="menu__vegetarian"
-								src="img/vegetarian.png"
-								alt="Vegetarian"
-							/>
+							Eggs Florentine 
+							<!-- <span class="menu__alergen">1A,3,12</span> -->
+							<img class="menu__vegetarian" src="img/vegetarian.png" alt="Vegetarian"/>
 						</h3>
-
-						<p class="menu__item-description">
-							Soft muffin, poached eggs, spinach & Hollandaise sauce
-						</p>
+						<p class="menu__item-description">Soft muffin, poached eggs, spinach & Hollandaise sauce</p>
 					</div>
 					<div>
 						<p class="menu__price">€9.90</p>
 					</div>
 				</div>
 			</div>
-
-			<hr />
-
+			<hr>
 			<div id="lunch-menu" class="container menus__lunch-menu">
 				<h2 class="menus__titles">Lunch Menu</h2>
-				<p class="menus__titles-information">Monday to Sunday - 12pm to 4pm</p>
-
+				<p class="menus__titles-information">Monday to Friday - 12:30pm to 4pm</p>
 				<div class="menus__items">
 					<div>
 						<h3 class="menu__item">
-							Butternut Squash & Roasted Chestnut Soup
-							<span class="menu__alergen">1A,7,9,10,12</span>
+							Soup of The Day
+							<!-- <span class="menu__alergen"></span> -->
+							<img class="menu__vegetarian" src="img/vegetarian.png" alt="Vegetarian"/>
 						</h3>
-
 						<p class="menu__item-description">
-							Served with crusty bread
+							Homemade Guinness brown bread
 							<span class="menu__alergen">(Gluten free bread available)</span>
 						</p>
 					</div>
 					<div>
-						<p class="menu__price">€7.00</p>
+						<p class="menu__price">€7.50</p>
 					</div>
 				</div>
-
 				<div class="menus__items">
 					<div>
 						<h3 class="menu__item">
-							Crispy Chicken Wrap <span class="menu__alergen">1A,3,7,9,10,12</span>
+							Crispy Chicken Wrap 
+							<!-- <span class="menu__alergen">1A,3,7,9,10,12</span> -->
 						</h3>
-
-						<p class="menu__item-description">
-							Baby gem lettuce, tomato, cucumber, smoked chipotle mayo
-						</p>
+						<p class="menu__item-description">Baby gem lettuce, tomato, cucumber, smoked chipotle mayo</p>
 					</div>
 					<div>
-						<p class="menu__price">€9.50</p>
+						<p class="menu__price">€9.90</p>
 					</div>
 				</div>
-
 				<div class="menus__items">
 					<div>
 						<h3 class="menu__item">
-							Potato & Chickpea Masala Wrap
-							<span class="menu__alergen">1A,12</span
-							><img
-								class="menu__vegetarian"
-								src="img/vegetarian.png"
-								alt="Vegetarian"
-							/>
+							Cauliflower & Spinach Fritter Wrap 
+							<!-- <span class="menu__alergen"></span> -->
+							<img class="menu__vegetarian" src="img/vegetarian.png" alt="Vegetarian"/>
 						</h3>
-
-						<p class="menu__item-description">
-							With baby spinach, mint & silken tofu cream
-						</p>
+						<p class="menu__item-description">Jalapeno & tofu dressing, mint & lime salsa</p>
 					</div>
 					<div>
-						<p class="menu__price">€9.50</p>
+						<p class="menu__price">€9.00</p>
 					</div>
 				</div>
-
+				<div class="menus__items">
+					<div>
+						<h3 class="menu__item">
+							Ham & Cheese Toastie & Fries 
+							<!-- <span class="menu__alergen"></span> -->
+						</h3>
+						<p class="menu__item-description">Honey roast ham, Dubliner mature cheddar, caramelised onion, pickle</p>
+					</div>
+					<div>
+						<p class="menu__price">€11.50</p>
+					</div>
+				</div>
 				<div class="menus__items">
 					<div>
 						<h3 class="menu__item">
 							Philly Cheese Steak Sandwich & Fries
-							<span class="menu__alergen">7,12</span>
+							<!-- <span class="menu__alergen">1A,3,7,10,12</span> -->
 						</h3>
-
-						<p class="menu__item-description">
-							Thinly sliced grilled beef, melted cheese, roasted onion, ciabatta bread
-						</p>
+						<p class="menu__item-description">Thinly sliced grilled beef, melted cheese, roasted onion, ciabatta bread</p>
 					</div>
 					<div>
-						<p class="menu__price">€10.90</p>
+						<p class="menu__price">€13.50</p>
 					</div>
 				</div>
-
 				<div class="menus__items">
 					<div>
 						<h3 class="menu__item">
-							Slow Cooked Guinness Beef Stew
-							<span class="menu__alergen">1A,3,7,10,12</span>
+							Slow Roast Lamb Cannon
+							<!-- <span class="menu__alergen">1A,3,7,9,10,12</span> -->
 						</h3>
-
-						<p class="menu__item-description">
-							Creamy mash, sauteed green vegetables
-						</p>
+						<p class="menu__item-description">Slow cooked Lamb loin, white beans casserole, parsnip puree, tender stem broccoli, port wine jus</p>
+					</div>
+					<div>
+						<p class="menu__price">€16.50</p>
+					</div>
+				</div>
+				<div class="menus__items">
+					<div>
+						<h3 class="menu__item">
+							Linguine Primavera with Atlantic Prawns
+							<!-- <span class="menu__alergen">8,12</span> -->
+						</h3>
+						<p class="menu__item-description">Spring vegetables, seafood butter, chilli oil, prawns, white wine cream</p>
+					</div>
+					<div>
+						<p class="menu__price">€15.90</p>
+					</div>
+				</div>
+				<div class="menus__items">
+					<div>
+						<h3 class="menu__item">
+							King Oyster Mushroom Thai Green Curry 
+							<!-- <span class="menu__alergen">1A,3,7,9,10,12 (Vegetarian Option)</span> -->
+							<img class="menu__vegetarian" src="img/vegetarian.png" alt="Vegetarian"/>
+						</h3>
+						<p class="menu__item-description">Green beans, mangetout, spinach, salsify, red rice, cashew nuts, crispy onion, fresh ginger & chilli</p>
 					</div>
 					<div>
 						<p class="menu__price">€15.50</p>
 					</div>
 				</div>
-
 				<div class="menus__items">
 					<div>
 						<h3 class="menu__item">
-							Smoked Chicken & Chorizo with Fettucine Pasta
-							<span class="menu__alergen">1A,3,7,9,10,12</span>
+							Grilled Tequila & Lime Chicken Salad 
+							<!-- <span class="menu__alergen">1A,3,7,9,10,12 (Vegetarian Option)</span> -->
 						</h3>
-
-						<p class="menu__item-description">
-							Cherry tomato, basil, white wine cream, aged Parmesan cheese
-						</p>
+						<p class="menu__item-description">Tequila & Lime marinated chicken, coriander, black beans, roasted red pepper, mixed leaves, Mango & pineapple sweet chilli dressing</p>
 					</div>
 					<div>
-						<p class="menu__price">€14.90</p>
+						<p class="menu__price">€16.00</p>
 					</div>
 				</div>
-
-				<div class="menus__items">
-					<div>
-						<h3 class="menu__item">
-							Roast Butternut Squash & Spinach Massaman Curry
-							<span class="menu__alergen">8,12</span
-							><img
-								class="menu__vegetarian"
-								src="img/vegetarian.png"
-								alt="Vegetarian"
-							/>
-						</h3>
-
-						<p class="menu__item-description">
-							Fragrant red rice, coconut, coriander, lemongrass, spiced yellow curry &
-							toasted cashew nuts
-						</p>
-					</div>
-					<div>
-						<p class="menu__price">€13.90</p>
-					</div>
-				</div>
-
-				<div class="menus__items">
-					<div>
-						<h3 class="menu__item">
-							Grilled Chicken Waldorf Salad
-							<span class="menu__alergen">1A,3,7,9,10,12 (Vegetarian Option)</span>
-						</h3>
-
-						<p class="menu__item-description">
-							Green apple, grapes, baby gem lettuce, celery, toasted walnut, ranch
-							dressing
-						</p>
-					</div>
-					<div>
-						<p class="menu__price">€14.50</p>
-					</div>
-				</div>
-
 				<div class="menus__items">
 					<div>
 						<h3 class="menu__item">
 							Buffalo Chicken Wings
-							<span class="menu__alergen">1A,1,7</span>
+							<!-- <span class="menu__alergen">1A,1,7</span> -->
 						</h3>
-
-						<p class="menu__item-description">
-							Hot & Spicy <span class="menu__alergen"> (1A,7,9,10) </span> OR Sticky
-							BBQ <span class="menu__alergen"> (6,7,9,10) </span> Homemade cashel blue
-							cheese dip
-						</p>
+						<p class="menu__item-description">Hot & Spicy OR Sticky	BBQ Homemade cashel blue cheese dip</p>
 					</div>
 					<div>
 						<p class="menu__price">€9.50 / €13.90</p>
 					</div>
-				</div>
-
-				<div class="menus__items">
+				</div><div class="menus__items">
 					<div>
 						<h3 class="menu__item">
 							Creole Chicken Burger & Fries
-							<span class="menu__alergen">1A,3,7,9,10,12</span>
+							<!-- <span class="menu__alergen">1A,3,7,9,10,12</span> -->
 						</h3>
-
-						<p class="menu__item-description">
-							Our signature Creole marinated chicken breast, mozzarella, tomato, baby
-							gem lettuce, homemade sriracha mayo, skinny fries
-						</p>
+						<p class="menu__item-description">Our signature Creole marinated chicken breast, mozzarella, tomato, baby gem lettuce, homemade sriracha mayo, skinny fries</p>
 					</div>
 					<div>
-						<p class="menu__price">€14.90</p>
+						<p class="menu__price">€15.50</p>
 					</div>
 				</div>
-
 				<div class="menus__items">
 					<div>
 						<h3 class="menu__item">
 							Youkstetter Beef Burger & Fries
-							<span class="menu__alergen">1A,3,7,10,12</span>
+							<!-- <span class="menu__alergen">1A,3,7,10,12</span> -->
 						</h3>
-
 						<p class="menu__item-description">
-							Homemade Irish beef burger, streaky bacon, cheddar cheese, caramelised
-							onions, baby gem, gherkins, sweet dill mayo, skinny fries
-						</p>
+							Homemade Irish beef burger, streaky bacon, cheddar cheese, caramelised onions, baby gem, gherkins, sweet dill mayo, skinny fries</p>
 					</div>
 					<div>
-						<p class="menu__price">€14.90</p>
+						<p class="menu__price">€15.50</p>
 					</div>
 				</div>
 			</div>
-
-			<hr />
-
+			<hr>
 			<div id="dinner-menu" class="container menus__dinner-menu">
 				<h2 class="menus__titles">Dinner Menu</h2>
 				<p class="menus__titles-information">Monday to Sunday - 4pm to close</p>
-
 				<h3 class="menus__courses">Starters</h3>
 				<div class="menus__items">
 					<div>
 						<h3 class="menu__item">
-							Butternut Squash & Roasted Chestnut Soup
-							<span class="menu__alergen">1A,7,9,10,12</span>
+							Spicy Calamari Tapas
+							<!-- <span class="menu__alergen">1A,7,9,10,12</span> -->
 						</h3>
-
 						<p class="menu__item-description">
-							served with crusty bread
-							<span class="menu__alergen">(Gluten free bread available)</span>
-						</p>
-					</div>
-					<div>
-						<p class="menu__price">€9.00</p>
-					</div>
-				</div>
-
-				<div class="menus__items">
-					<div>
-						<h3 class="menu__item">
-							Crispy Potato & Chickpea Masala Cakes
-							<span class="menu__alergen">7,9,10,12</span
-							><img
-								class="menu__vegetarian"
-								src="img/vegetarian.png"
-								alt="Vegetarian"
-							/>
-						</h3>
-
-						<p class="menu__item-description">
-							With mint yogurt & tamarind dressing, pomegranate, fresh ginger & chopped
-							red chilli
-						</p>
-					</div>
-					<div>
-						<p class="menu__price">€9.00</p>
-					</div>
-				</div>
-
-				<div class="menus__items">
-					<div>
-						<h3 class="menu__item">Buffalo Chicken Wings</h3>
-						<p class="menu__alergen">s 1A,1,7</p>
-						<p class="menu__item-description">
-							Hot & Spicy 1A,7,9,10 OR Sticky BBQ 6,7,9,10 Homemade cashel blue cheese
-							dip
-						</p>
-					</div>
-					<div>
-						<p class="menu__price">€9.50 / €13.90</p>
-					</div>
-				</div>
-
-				<div class="menus__items">
-					<div>
-						<h3 class="menu__item">
-							St Tola Goat Cheese & Beetroot Terrine
-							<span class="menu__alergen">1A,8,12</span
-							><img
-								class="menu__vegetarian"
-								src="img/vegetarian.png"
-								alt="Vegetarian"
-							/>
-						</h3>
-
-						<p class="menu__item-description">
-							Homemade Terrine with poached pear, balsamic onion, walnuts & rustic
-							bread <span class="menu__alergen">(Gluten free bread available)</span>
-						</p>
-					</div>
-					<div>
-						<p class="menu__price">€10.50</p>
-					</div>
-				</div>
-
-				<div class="menus__items">
-					<div>
-						<h3 class="menu__item">
-							Atlantic King Prawn Pil Pil
-							<span class="menu__alergen">1A,2,6,7,9,10</span>
-						</h3>
-
-						<p class="menu__item-description">
-							With fresh red chillies, red pepper, garlic, parsley, lemon & rustic
-							sourdough bread
+							Slow cooked calamari, tomato, white wine, herbs, sourdough bread
 							<span class="menu__alergen">(Gluten free bread available)</span>
 						</p>
 					</div>
@@ -507,397 +331,312 @@
 						<p class="menu__price">€11.50</p>
 					</div>
 				</div>
-
+				<div class="menus__items">
+					<div>
+						<h3 class="menu__item">
+							Cauliflower & Spinach Fritter
+							<!-- <span class="menu__alergen">7,9,10,12</span> -->
+							<img class="menu__vegetarian" src="img/vegetarian.png" alt="Vegetarian">
+						</h3>
+						<p class="menu__item-description">Greek yogurt, mint dressing, pomegranate, fresh chilli & ginger</p>
+					</div>
+					<div>
+						<p class="menu__price">€9.50</p>
+					</div>
+				</div>
+				<div class="menus__items">
+					<div>
+						<h3 class="menu__item">Crispy Brie Parcel</h3>
+						<!-- <p class="menu__alergen">s 1A,1,7</p> -->
+						<p class="menu__item-description">Cranberry relish, toasted walnut, microgreens</p>
+					</div>
+					<div>
+						<p class="menu__price">€10.50</p>
+					</div>
+				</div>
+				<div class="menus__items">
+					<div>
+						<h3 class="menu__item">
+							Chicken & Apricot Terrine
+							<!-- <span class="menu__alergen">1A,8,12</span> -->
+						</h3>
+						<p class="menu__item-description">
+						Homemade Terrine with mustard & parmesan dressing, rustic bread 
+						<span class="menu__alergen">(Gluten free bread available)</span>
+						</p>
+					</div>
+					<div>
+						<p class="menu__price">€11.50</p>
+					</div>
+				</div>
+				<div class="menus__items">
+					<div>
+						<h3 class="menu__item">
+							Atlantic King Prawn Pil Pil
+							<!-- <span class="menu__alergen">1A,2,6,7,9,10</span> -->
+						</h3>
+						<p class="menu__item-description">
+							With fresh red chillies, red pepper, garlic, parsley, lemon & rustic sourdough bread
+							<span class="menu__alergen">(Gluten free bread available)</span>
+						</p>
+					</div>
+					<div>
+						<p class="menu__price">€12.00</p>
+					</div>
+				</div>
 				<h3 class="menus__courses">Mains</h3>
-
 				<div class="menus__items">
 					<div>
 						<h3 class="menu__item">
-							Roast Corn Fed Chicken Supreme <span class="menu__alergen">7,9,12</span>
+							Roast Corn Fed Chicken Supreme 
+							<!-- <span class="menu__alergen">7,9,12</span> -->
 						</h3>
-
-						<p class="menu__item-description">
-							Mash potato, tender stem broccoli, smoked bacon & mushroom cream, wine
-							jus
-						</p>
+						<p class="menu__item-description">Lemon & thyme polenta, rustic roast tomato, red pepper & basil sauce, tender stem broccoli, cavolo nero, Port wine jus</p>
 					</div>
 					<div>
-						<p class="menu__price">€24.90</p>
+						<p class="menu__price">€29.50</p>
 					</div>
 				</div>
-
 				<div class="menus__items">
 					<div>
 						<h3 class="menu__item">
-							8oz Irish Ribeye Steak <span class="menu__alergen">7,9,12</span>
+							10oz Irish Ribeye Steak 
+							<!-- <span class="menu__alergen">7,9,12</span> -->
 						</h3>
-
 						<p class="menu__item-description">
-							Ribeye Steak, bone marrow butter, sautéed greens, red wine jus & hand cut
-							chips
+							Ribeye Steak, bone marrow butter, sautéed greens, red wine jus & hand cut chips
 						</p>
 					</div>
 					<div>
-						<p class="menu__price">€28.00</p>
+						<p class="menu__price">€32.00</p>
 					</div>
 				</div>
-
 				<div class="menus__items">
 					<div>
 						<h3 class="menu__item">
-							Roast Butternut Squash & Spinach Massaman Curry
-							<span class="menu__alergen">8,12</span
-							><img
-								class="menu__vegetarian"
-								src="img/vegetarian.png"
-								alt="Vegetarian"
-							/>
+							King Oyster Mushroom Thai Green Curry
+							<!-- <span class="menu__alergen">8,12</span> -->
+							<img class="menu__vegetarian" src="img/vegetarian.png" alt="Vegetarian">
 						</h3>
-
-						<p class="menu__item-description">
-							Fragrant red rice, coconut, coriander, lemongrass, spiced yellow curry &
-							toasted cashew nuts
-						</p>
+						<p class="menu__item-description">Green beans, mangetout, spinach, salsify, red rice, cashew nuts, crispy onion, fresh ginger & chilli</p>
 					</div>
 					<div>
-						<p class="menu__price">€17.90</p>
+						<p class="menu__price">€26.00</p>
 					</div>
 				</div>
-
 				<div class="menus__items">
 					<div>
 						<h3 class="menu__item">
-							Grilled Chicken Waldorf Salad
-							<span class="menu__alergen">d 1A,3,7,9,10,12 (Vegetarian Option)</span>
+							Pan Fried Seabream
+							<!-- <span class="menu__alergen">d 1A,3,7,9,10,12 (Vegetarian Option)</span> -->
 						</h3>
-
-						<p class="menu__item-description">
-							Green apple, grapes, baby gem lettuce, celery, toasted walnut, ranch
-							dressing
-						</p>
+						<p class="menu__item-description">Saffron and mussels cream, sautéed samphire, tender stem broccoli, baby potato, biquinho pepper</p>
 					</div>
 					<div>
-						<p class="menu__price">€16.90</p>
+						<p class="menu__price">€29.00</p>
 					</div>
 				</div>
-
 				<div class="menus__items">
 					<div>
 						<h3 class="menu__item">
-							Lemon Roast Hake <span class="menu__alergen">1A,3,4,7,9,12</span>
+							Slow Roast Pork Belly 
+							<!-- <span class="menu__alergen">1A,3,4,7,9,12</span> -->
 						</h3>
-
-						<p class="menu__item-description">
-							With fondant potato, green vegetables, white wine cream
-						</p>
+						<p class="menu__item-description">Pressed potato, carrot & star anis purée, irish cider jus, kohlrabi fondant & pickle</p>
+					</div>
+					<div>
+						<p class="menu__price">€31.00</p>
+					</div>
+				</div>
+				<div class="menus__items">
+					<div>
+						<h3 class="menu__item">
+							Linguine Primavera with Garlic Roasted Scallops
+							<!-- <span class="menu__alergen">1A,3,7,10,12</span> -->
+						</h3>
+						<p class="menu__item-description">Spring vegetables, seafood butter, chilli oil, king scallops, white wine cream</p>
 					</div>
 					<div>
 						<p class="menu__price">€22.90</p>
 					</div>
 				</div>
-
-				<div class="menus__items">
-					<div>
-						<h3 class="menu__item">
-							Smoked Chicken & Chorizo with Fettucine Pasta
-							<span class="menu__alergen">1A,3,7,10,12</span>
-						</h3>
-
-						<p class="menu__item-description">
-							Cherry tomato, basil, white wine cream, aged Parmesan cheese
-						</p>
-					</div>
-					<div>
-						<p class="menu__price">€17.90</p>
-					</div>
-				</div>
-
-				<div class="menus__items">
-					<div>
-						<h3 class="menu__item">
-							Slow Cooked Guinness Beef Stew
-							<span class="menu__alergen">1A,3,7,10,12</span>
-						</h3>
-
-						<p class="menu__item-description">
-							Creamy mash, sauteed green vegetables
-						</p>
-					</div>
-					<div>
-						<p class="menu__price">€16.90</p>
-					</div>
-				</div>
-
-				<div class="menus__items">
-					<div>
-						<h3 class="menu__item">
-							Youkstetter Beef Burger & Fries
-							<span class="menu__alergen"> 1A,3,7,10,12</span>
-						</h3>
-
-						<p class="menu__item-description">
-							Homemade Irish beef burger, streaky bacon, cheddar cheese, caramelised
-							onions, baby gem, gherkins, sweet dill mayo, skinny fries
-						</p>
-					</div>
-					<div>
-						<p class="menu__price">€16.90</p>
-					</div>
-				</div>
-
-				<hr />
-
-				<div id="weekend-menu" class="container menus__brunch-menu">
+				<hr>				
+			</div>
+			<div id="weekend-menu" class="container menus__brunch-menu">
 					<h2 class="menus__titles">Brunch Menu</h2>
-					<p class="menus__titles-information">Weekends - Open to 4pm</p>
-
+					<p class="menus__titles-information">Saturday, Sunday and Holydays - 10am to 4pm</p>
 					<div class="menus__items">
 						<div>
 							<h3 class="menu__item">
 								Ç&#305;lb&#305;r, Ottoman Breakfast
-								<span class="menu__alergen">1A,3,7,12</span
-								><img
-									class="menu__vegetarian"
-									src="img/vegetarian.png"
-									alt="Vegetarian"
-								/>
+								<!-- <span class="menu__alergen">1A,3,7,12</span> -->
+								<img class="menu__vegetarian" src="img/vegetarian.png" alt="Vegetarian">
 							</h3>
-
-							<p class="menu__item-description">
-								Poached eggs, garlic & mint, dill yogurt, chilli flakes, olive oil &
-								rustic bread
-							</p>
+							<p class="menu__item-description">Poached eggs, za’taar spice, garlic & mint, dill yogurt, chilli flakes, olive oil & rustic bread</p>
 						</div>
 						<div>
 							<p class="menu__price">€11.90</p>
 						</div>
 					</div>
-
 					<div class="menus__items">
 						<div>
 							<h3 class="menu__item">
-								Avocado Smash & Poached Eggs <span class="menu__alergen"> 1A,3,12</span
-								><img
-									class="menu__vegetarian"
-									src="img/vegetarian.png"
-									alt="Vegetarian"
-								/>
+								Avocado Smash & Poached Eggs 
+								<!-- <span class="menu__alergen"> 1A,3,12</span> -->
+								<img class="menu__vegetarian" src="img/vegetarian.png" alt="Vegetarian">
 							</h3>
-
-							<p class="menu__item-description">
-								Toasted sourdough, roast tomato, poached eggs & homemade chilli oil
-							</p>
+							<p class="menu__item-description">Toasted sourdough, roast tomato, poached eggs & homemade chilli oil</p>
 						</div>
 						<div>
 							<p class="menu__price">€10.90</p>
 						</div>
 					</div>
-
 					<div class="menus__items">
 						<div>
 							<h3 class="menu__item">
 								104&#8217;s Proper Irish Breakfast
-								<span class="menu__alergen"> 1A,1,3,7,9,12</span>
+								<!-- <span class="menu__alergen"> 1A,1,3,7,9,12</span> -->
 							</h3>
-
-							<p class="menu__item-description">
-								Guinness pork & leek sausage, thick-cut bacon, poached egg, grilled
-								tomato, Clonakilty black pudding, toast
-							</p>
+							<p class="menu__item-description">Guinness pork & leek sausage, thick-cut bacon, poached egg, grilled tomato, Clonakilty black pudding, toast</p>
 						</div>
 						<div>
 							<p class="menu__price">€12.50</p>
 						</div>
 					</div>
-
 					<div class="menus__items">
 						<div>
 							<h3 class="menu__item">
-								Eggs Benedict <span class="menu__alergen"> 1A,1,3,7,12</span>
+								Eggs Benedict 
+								<!-- <span class="menu__alergen"> 1A,1,3,7,12</span> -->
 							</h3>
-
-							<p class="menu__item-description">
-								Soft muffin, poached eggs, streaky bacon, spinach & Hollandaise sauce
-							</p>
+							<p class="menu__item-description">Soft muffin, poached eggs, honey roast ham, spinach & Hollandaise sauce</p>
 						</div>
 						<div>
 							<p class="menu__price">€10.90</p>
 						</div>
 					</div>
-
 					<div class="menus__items">
 						<div>
 							<h3 class="menu__item">
-								Buffalo Chicken Wings <span class="menu__alergen">1A,1,7</span>
+								Buffalo Chicken Wings 
+								<!-- <span class="menu__alergen">1A,1,7</span> -->
 							</h3>
-
-							<p class="menu__item-description">
-								Hot & Spicy 1A,7,9,10 OR Sticky BBQ 6,7,9,10 Homemade Cashel Blue cheese
-								dip
-							</p>
+							<p class="menu__item-description">Hot & Spicy BBQ, Homemade Cashel Blue cheese dip</p>
 						</div>
 						<div>
 							<p class="menu__price">€9.50 / €13.90</p>
 						</div>
 					</div>
-
 					<div class="menus__items">
 						<div>
 							<h3 class="menu__item">
-								Crispy Potato & Chickpea Masala Cakes
-								<span class="menu__alergen">7,9,10,12</span
-								><img
-									class="menu__vegetarian"
-									src="img/vegetarian.png"
-									alt="Vegetarian"
-								/>
+								Cachapa & Poached Eggs
+								<!-- <span class="menu__alergen">7,9,10,12</span> -->
 							</h3>
-
-							<p class="menu__item-description">
-								With mint yogurt & tamarind dressing, fresh ginger, chopped red chilli &
-								pomegranate
-							</p>
+							<p class="menu__item-description">Venezuelan sweetcorn pancake, black beans, avocado salsa, leaves & poached eggs</p>
 						</div>
 						<div>
-							<p class="menu__price">€12.00</p>
+							<p class="menu__price">€14.00</p>
 						</div>
 					</div>
-
 					<div class="menus__items">
 						<div>
 							<h3 class="menu__item">
-								Roast Butternut Squash & Spinach Massaman Curry
-								<span class="menu__alergen">8,12</span
-								><img
-									class="menu__vegetarian"
-									src="img/vegetarian.png"
-									alt="Vegetarian"
-								/>
+								Cauliflower & Spinach Fritter
+								<!-- <span class="menu__alergen">8,12</span> -->
+								<!-- <img class="menu__vegetarian" src="img/vegetarian.png" alt="Vegetarian"> -->
 							</h3>
-
-							<p class="menu__item-description">
-								Fragrant red rice, coconut, coriander, lemongrass, spiced yellow curry &
-								toasted cashew nuts
-							</p>
+							<p class="menu__item-description">Mint & lime dressing, greek yogurt, fresh red chilli and pomegranate</p>
 						</div>
 						<div>
-							<p class="menu__price">€14.90</p>
+							<p class="menu__price">€14.00</p>
 						</div>
 					</div>
-
 					<div class="menus__items">
 						<div>
 							<h3 class="menu__item">
-								Grilled Chicken Waldorf Salad
-								<span class="menu__alergen">1A,3,7,9,10,12 (Vegetarian Option)</span>
+								Grilled Tequila & Lime Chicken Salad
+								<!-- <span class="menu__alergen">1A,3,7,9,10,12 (Vegetarian Option)</span> -->
 							</h3>
-
-							<p class="menu__item-description">
-								Green apple, grapes, baby gem lettuce, celery, toasted walnut, ranch
-								dressing
-							</p>
+							<p class="menu__item-description">Tequila & Lime marinated chicken, coriander, black beans, roasted red pepper, mixed leaves, Mango & pineapple sweet chilli dressing</p>
 						</div>
 						<div>
-							<p class="menu__price">€14.50</p>
+							<p class="menu__price">€16.00</p>
 						</div>
 					</div>
-
 					<div class="menus__items">
 						<div>
 							<h3 class="menu__item">
 								Atlantic King Prawn Pil Pil
-								<span class="menu__alergen">1A,2,6,7,9,10</span>
+								<!-- <span class="menu__alergen">1A,2,6,7,9,10</span> -->
 							</h3>
-
 							<p class="menu__item-description">
-								with fresh red chillies, red pepper, garlic, parsley, lemon & rustic
-								sourdough bread<span class="menu__alergen">
-									(Gluten free bread available)</span
-								>
+								with fresh red chillies, red pepper, garlic, parsley, lemon & rustic sourdough bread 
+								<span class="menu__alergen">(Gluten free bread available)</span>
 							</p>
 						</div>
 						<div>
 							<p class="menu__price">€11.90</p>
 						</div>
 					</div>
-
 					<div class="menus__items">
 						<div>
 							<h3 class="menu__item">
 								Creole Chicken Burger & Fries
-								<span class="menu__alergen">1A,3,7,9,10,12</span>
+								<!-- <span class="menu__alergen">1A,3,7,9,10,12</span> -->
 							</h3>
-
-							<p class="menu__item-description">
-								Our signature Creole marinated chicken breast, mozzarella, tomato, baby
-								gem lettuce, sriracha mayo, fries
-							</p>
+							<p class="menu__item-description">Our signature Creole marinated chicken breast, mozzarella, tomato, baby gem lettuce, sriracha mayo, fries</p>
 						</div>
 						<div>
-							<p class="menu__price">€14.90</p>
+							<p class="menu__price">€15.90</p>
 						</div>
 					</div>
-				</div>
 			</div>
 		</main>
-
 		<footer class="footer">
 			<div class="footer__links container">
 				<div class="footer__links-104">
 					<ul>
 						<li><a href="menu.html">Menus</a></li>
 						<li>
-							<a
-								href="https://restaurant104.voucherconnect.com/product/3041"
-								target="_blank"
-								>Vouchers</a
-							>
+							<a href="https://restaurant104.voucherconnect.com/product/3041" target="_blank">Vouchers</a>
 						</li>
 						<li>
-							<a
-								href="https://www.just-eat.ie/restaurants-restaurant104-dublin-drumcondra"
-								target="_blank"
-								>Delivery</a
-							>
+							<a href="https://www.just-eat.ie/restaurants-restaurant104-dublin-drumcondra" target="_blank">Delivery</a>
 						</li>
 						<li>
-							<a
-								href="https://app.tablein.com/widget?restaurant_id=1240858"
-								target="_blank"
-								>Book a Table</a
-							>
+							<a href="https://app.tablein.com/widget?restaurant_id=1240858" target="_blank">Book a Table</a>
 						</li>
 					</ul>
 				</div>
-
 				<div class="footer__links-social">
 					<ul>
 						<li>
 							<a href="https://www.facebook.com/Restaurant104.ie" target="_blank">
-								<i class="fab fa-facebook-f footer__icon"></i>
+								<i class="fab fa-facebook-f"></i>
 							</a>
 						</li>
 						<li>
 							<a href="https://www.instagram.com/restaurant104/" target="_blank">
-								<i class="fab fa-instagram footer__icon"></i>
+								<i class="fab fa-instagram"></i>
 							</a>
 						</li>
 						<li>
 							<a href="tel:+35317978936" target="_blank">
-								<i class="fas fa-phone-alt footer__icon"></i>
+								<i class="fas fa-phone-alt"></i>
 							</a>
 						</li>
 						<li>
 							<a href="mailto:info@restaurant104.ie" target="_blank">
-								<i class="far fa-envelope footer__icon"></i>
+								<i class="far fa-envelope"></i>
 							</a>
 						</li>
 					</ul>
 				</div>
 			</div>
-
 			<div class="footer__copy container">
-				<p>&copy; 2021 by Restaurant 104.</p>
+				<p>&copy; 2021-2022 Restaurant 104</p>
+				<p>Website by <a href="https://cinthiafontoura.com/" target="_blank">Cinthia Fontoura</a></p>
 			</div>
 		</footer>
 		<!-- scripts TableIn 1 -->

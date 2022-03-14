@@ -1,4 +1,4 @@
-@import 'config', 'menu', 'testimonials', 'contact', 'footer';
+@import 'config', 'buttons', 'menu', 'testimonials', 'contact', 'footer';
 
 * {
 	margin: 0;
@@ -17,6 +17,7 @@ html {
 	overflow-x: hidden;
 	letter-spacing: 1px;
 	scroll-behavior: smooth;
+	scroll-padding-top: 30px;
 }
 
 /* ------------------------------------ */
@@ -46,70 +47,6 @@ h2 {
 	margin: 0 auto 5%;
 	font-size: 250%;
 	text-align: center;
-}
-
-/* -------Buttons-------- */
-.btn:link,
-.btn:visited {
-	display: inline-block;
-	padding: 10px 10px;
-	font-weight: 300;
-	text-decoration: none;
-	border-radius: 10px;
-	color: $text-color;
-	@include easeOut;
-}
-
-.btn-full:link,
-.btn-full:visited,
-input[type='submit'] {
-	background: $secundary-color;
-	border: 1px solid $secundary-color;
-}
-
-.btn-ghost:link,
-.btn-ghost:visited {
-	background: transparentize(#000, 0.8);
-	border: 1px solid $secundary-color;
-	color: $secundary-color;
-}
-
-.btn:hover,
-.btn:active,
-input[type='submit']:hover,
-input[type='submit']:active {
-	background: darken($secundary-color, 7);
-}
-
-.btn-full:hover,
-.btn-full:active,
-input[type='submit']:hover,
-input[type='submit']:active {
-	background: darken($secundary-color, 7);
-	border: 1px solid darken($secundary-color, 7);
-}
-
-.btn-ghost:hover,
-.btn-ghost:active {
-	background: transparentize($secundary-color, 0.7);
-	border: 1px solid $secundary-color;
-	color: $text-color;
-}
-
-.btn-top {
-	position: fixed;
-	right: 15px;
-	bottom: 15px;
-	width: 40px;
-	height: 40px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	text-decoration: none;
-	border-radius: 10px;
-	color: $text-color;
-	@include easeOut;
-	z-index: 999;
 }
 
 /* ------------------------------------ */
@@ -164,6 +101,28 @@ input[type='submit']:active {
 			}
 		}
 	}
+}
+
+.mobile-navbar {
+	background: $primary-color;
+	width: 75vw;
+	height: 100vh;
+	padding: 10px;
+
+	position:absolute;
+	left: -100vw;
+	top: 50px;
+	transition: left .25s;
+	z-index: 9999999;
+
+	&__logo {
+		width: 100px;
+	}
+}
+
+.mobile-navbar--ative {
+	left: 0;
+	transition: left .25s;
 }
 
 /* ------------------------------------ */

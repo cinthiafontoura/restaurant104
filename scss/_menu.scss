@@ -1,22 +1,9 @@
 .menu-header {
-	@include bg-img-fixed('../img/hero-menu.jpg', 100vh);
+	@include bg-img-fixed('../img/hero-menu.jpg', 80vh);
 }
 
 // older code
-.btn-menu {
-	display: flex;
-	justify-content: center;
-	align-content: center;
-	align-items: center;
-	padding-top: 40vh;
 
-	.btn {
-		align-self: center;
-		width: 150px;
-		text-align: center;
-		margin: 0 5px;
-	}
-}
 
 .menus {
 	margin: 3%;
@@ -101,22 +88,13 @@ hr {
 	width: 100%;
 	background-color: #fff;
 	height: 3px;
-	margin-top: 4rem;
+	margin: 4rem 0;
 }
 
-.navbar-btn {
-	position: absolute;
-	right: 135px;
-	top: 135px;
-	cursor: pointer;
-	z-index: 3;
-	transition: all 0.5s ease-out;
-}
-
-.navbar-btn__line {
-	width: 28px;
-	height: 3px;
-	margin-bottom: 5px;
-	background: #fff;
-	transition: all 0.5s ease-out;
+.menu__buttons {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	padding-top: 40vh;	
 }

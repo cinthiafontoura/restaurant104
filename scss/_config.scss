@@ -10,6 +10,7 @@ $footer-text: #888;
 @mixin bg-img-fixed($url, $height) {
 	background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
 		url($url);
+	background-attachment: fixed;
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
