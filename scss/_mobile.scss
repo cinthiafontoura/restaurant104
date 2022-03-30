@@ -81,7 +81,7 @@
 	}
 
 	.menu-header {
-		@include bg-img-fixed('../img/hero-menu-mobile.jpg', 80vh);
+		@include bg-img-fixed('../img/hero-menu-mobile.jpg', 85vh);
 	}
 
 
@@ -214,6 +214,10 @@
 @media only screen and (max-width: 480px) {
 	section {
 		padding: 25px 0;
+	}
+
+  .menu-header {
+		@include bg-img-fixed('../img/hero-menu-mobile.jpg', 92vh);
 	}
 }
 

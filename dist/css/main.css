@@ -44,8 +44,7 @@
   background-position: center center;
   background-repeat: no-repeat;
   height: 80vh;
-  width: 100vw;
-  background-position: center center; }
+  width: 100vw; }
 
 .menus {
   margin: 3%; }
@@ -228,9 +227,9 @@ hr {
           transition: all 0.5s ease-out; }
 
 * {
+  box-sizing: border-box;
   margin: 0;
-  padding: 0;
-  box-sizing: border-box; }
+  padding: 0; }
 
 html {
   background: #303a2e;
@@ -238,16 +237,13 @@ html {
   font-family: 'Ubuntu', sans-serif;
   font-size: 20px;
   font-weight: 300;
-  line-height: 1.45;
-  text-rendering: optimizeLegibility;
-  overflow-x: hidden;
   letter-spacing: 1px;
+  line-height: 1.45;
+  overflow-x: hidden;
+  text-rendering: optimizeLegibility;
   scroll-behavior: smooth;
   scroll-padding-top: 30px; }
 
-/* ------------------------------------ */
-/* REUSABLE COMPONENTS */
-/* ------------------------------------ */
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -452,7 +448,7 @@ h2 {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    height: 80vh;
+    height: 85vh;
     width: 100vw; }
   .navbar {
     flex-direction: column-reverse;
@@ -532,7 +528,15 @@ h2 {
 /* Small phones: from 370px to 480px */
 @media only screen and (max-width: 480px) {
   section {
-    padding: 25px 0; } }
+    padding: 25px 0; }
+  .menu-header {
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("../img/hero-menu-mobile.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 92vh;
+    width: 100vw; } }
 
 /* Very small phones: from 0px to 369px */
 @media only screen and (max-width: 369px) {
