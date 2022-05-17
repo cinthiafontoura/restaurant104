@@ -1,13 +1,12 @@
 # Restaurant 104
 
-A responsive website made for a local restaurant based in Dublin, Ireland, where customers can book a table, get in touch, and see the menus before enjoying the delicious food at Restaurant 104. The website is a redesign of an older website in WordPress, and the new technologies used are HTML and CSS with Sass and deployed at Hosting Ireland.
+A responsive website made for a local restaurant based in Dublin, Ireland, where customers can book a table, get in touch, and see the menus before enjoying the delicious food at Restaurant 104. The website is a redesign of an older website in WordPress, and the new technologies used are HTML, CSS with Sass, adn JavaScript and deployed at Hosting Ireland.
 
 Check the live project at [Restaurant 104](https://restaurant104.ie)
 
 
 ## Future Improvements
 
-- Add burger menu to small sizes
 - Documentation
 - Make the menus interactive
 - Add welcome text to the home
@@ -22,6 +21,7 @@ Check the live project at [Restaurant 104](https://restaurant104.ie)
 - HTML
 - CSS
 - Sass
+- JavaScript
 
 
 ## Credits
@@ -30,3 +30,4 @@ Check the live project at [Restaurant 104](https://restaurant104.ie)
 - Icons by [Font Awesome](https://fontawesome.com/).
 - Booking sistem by [tablein](https://www.tablein.com/).
 - Favicon create using [Favicon](https://favicon.io/) generator. 
+- Burger menu added folloing Brad Traversy tutorial.
