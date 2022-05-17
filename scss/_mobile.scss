@@ -1,8 +1,12 @@
-/* Big tablets to 1200px (widths smaller than the 1140px row) 1668x2388 apple */
-@media only screen and (max-width: 2388px) {
+
+@media only screen and (max-width: 5000px) {
 	.container {
 		padding: 0 2%;
 	}
+
+  .mobile-navbar {
+    display: none;
+  }
 }
 
 /* Big tablets to 1200px (widths smaller than the 1140px row) */
@@ -21,6 +25,8 @@
 	.container {
 		padding: 0 2%;
 	}
+
+  
 
 	.footer {
 		display: flex;
@@ -66,6 +72,20 @@
 	}
 }
 
+@media only screen and (max-width: 860px) {
+  html {
+    scroll-behavior: auto;
+  }
+  .navbar {
+    display: none;
+	}
+
+  .mobile-navbar {
+    display: block;
+  }
+
+}
+
 /* Small phones to small tablets: 481 to 767px */
 @media only screen and (max-width: 768px) {
 	body {
@@ -82,32 +102,8 @@
 
 	.menu-header {
 		@include bg-img-fixed('../img/hero-menu-mobile.jpg', 85vh);
-	}
-
-
-	.navbar {
-		// display: none;
-
-		flex-direction: column-reverse;
-		align-items: center;
-		.logo {
-			width: 150px;
-			margin: 30px 0 0;
-		}
-
-		.main-nav {
-			margin-top: 27px;
-			text-align: center;
-
-			& li {
-				margin: 8px;
-			}
-		}
-	}
-
-	.menu-mobile {
-		padding: 15px;
-	}
+	}	
+ 
 	.btn {
 		display: block;
 		padding: 10px 0;
@@ -124,7 +120,7 @@
 
 	.menu__buttons {
 		flex-direction: column;
-		padding-top: 1vh;
+		padding: 15% 0;
 	}	 
 
 	a {
@@ -219,11 +215,5 @@
   .menu-header {
 		@include bg-img-fixed('../img/hero-menu-mobile.jpg', 92vh);
 	}
-}
 
-/* Very small phones: from 0px to 369px */
-@media only screen and (max-width: 369px) {
-	.btn__menu{
-		margin: 10px 0;
-	}
 }

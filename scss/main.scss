@@ -1,4 +1,4 @@
-@import 'config', 'buttons', 'menu', 'testimonials', 'contact', 'footer';
+@import 'config', 'navbar', 'buttons', 'menu', 'testimonials', 'contact', 'footer';
 
 * {
 	box-sizing: border-box;
@@ -53,74 +53,6 @@ h2 {
 	@include bg-img-fixed('../img/hero.jpg', 100vh);
 }
 
-.hero-text {
-	color: $text-color;
-	display: flex;
-	flex-direction: column;
-	align-items: flex-end;
-	justify-content: flex-end;
-	text-align: right;
-	height: 50%;
-}
-
-.navbar {
-	display: flex;
-	justify-content: space-between;
-
-	.logo {
-		left: 5%;
-		width: 130px;
-		margin: 20px 0 0;
-	}
-
-	.main-nav {
-		right: 5%;
-		list-style: none;
-		margin-top: 60px;
-
-		& li {
-			display: inline-block;
-			margin-left: 20px;
-
-			& a:link,
-			& a:visited {
-				color: $text-color;
-				text-decoration: none;
-				text-transform: uppercase;
-				border-bottom: 1px solid transparent;
-				padding-bottom: 5px;
-				@include easeOut;
-
-				&:hover,
-				&:active {
-					border-bottom: 3px solid $secundary-color;
-				}
-			}
-		}
-	}
-}
-
-.mobile-navbar {
-	background: $primary-color;
-	width: 75vw;
-	height: 100vh;
-	padding: 10px;
-
-	position:absolute;
-	left: -100vw;
-	top: 50px;
-	transition: left .25s;
-	z-index: 9999999;
-
-	&__logo {
-		width: 100px;
-	}
-}
-
-.mobile-navbar--ative {
-	left: 0;
-	transition: left .25s;
-}
 
 /* ------------------------------------ */
 /* CONTENT */

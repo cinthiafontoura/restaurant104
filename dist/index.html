@@ -22,7 +22,7 @@
 	</head>
 	<body>
 		<header id="pageup" class="home-header home-header-mobile">
-			<!-- <button class="menu-mobile"><i class="fa-solid fa-bars"></i></button> -->
+			
 			<nav class="container navbar">
 				<div>
 					<a href="index.html#pageup">
@@ -49,32 +49,56 @@
 						<a href="#contact">Contact</a>
 					</li>
 				</ul>
-			</nav>			
-			<a href="#pageup" class="btn__ghost btn__pageup">Top</a>
+			</nav>
+
+      
+			<div  class="mobile-navbar">
+        <div class="menu-header-mobile">
+          <img class="logo--mobile" src="img/logo-white.svg" alt="Restaurant 104"/>
+
+          <button class="nav-btn open-btn">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>   
+      
+        <div class="nav nav-1">
+          <div class="nav nav-2">
+            <div class="nav nav-3">
+              <button class="nav-btn close-btn">
+                <i class="fas fa-times"></i>
+              </button>
+      
+              <img class="logo--mobile" src="img/logo-black.svg" alt="Restaurant 104"/>
+      
+              <ul class="list">
+                <li>
+                  <a class="mobile-link" href="index.html">Home</a>
+                </li>
+                <li>
+                  <a class="mobile-link" href="menu.html">Menus</a>
+                </li>
+                <li>
+                  <a class="mobile-link" href="index.html#book">Book a Table</a>
+                </li>
+                <li>
+                  <a class="mobile-link" href="index.html#voucher">Vouchers</a>
+                </li>
+                <li>
+                  <a class="mobile-link" href="index.html#about-us">About Us</a>
+                </li>
+                <li>
+                  <a class="mobile-link" href="index.html#contact">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+    <a href="#pageup" class="btn__ghost btn__pageup">Top</a>
 		</header>
-		<!-- <nav class="mobile-navbar">
-			<ul class="main-nav">
-				<li>
-					<a href="index.html#pageup">
-						<img class="mobile-navbar__logo" src="img/logo-white.svg" alt="Logo Restaurant 104"></a>
-				</li>
-				<li>
-					<a href="menu.html">Menus</a>
-				</li>
-				<li>
-					<a href="index.html#book">Book a Table</a>
-				</li>
-				<li>
-					<a href="#voucher">Vouchers</a>
-				</li>
-				<li>
-					<a href="#about-us">About Us</a>
-				</li>
-				<li>
-					<a href="#contact">Contact</a>
-				</li>
-			</ul>				
-		</nav> -->
+		
 		<section class="section-content">
 			<div id="book" class="container content-reverse">
 				<div class="content-box image-content">
@@ -268,6 +292,7 @@
 				<p>Website by <a href="https://cinthiafontoura.com/" target="_blank">Cinthia Fontoura</a></p>
 			</div>
 		</footer>
+    <!-- JavaScript -->
 		<script src="javascript/index.js"></script>
 		<!-- scripts TableIn 1 -->
 		<script src="https://app.tablein.com/sites/all/modules/custom/cumo_widget/js/code_outside_iframe.js?v2" type="text/javascript"></script>

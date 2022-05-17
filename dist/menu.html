@@ -22,13 +22,11 @@
 	</head>
 
 	<body id="pageup">
-		<header class="menu-header menu-header-mobile">
+		<header class="menu-header">
 			<nav class="container navbar">
-				<div>
-					<a href="index.html"
-						><img class="logo" src="img/logo-white.svg" alt="Restaurant 104"
-					/></a>
-				</div>
+					<a href="index.html">
+            <img class="logo" src="img/logo-white.svg" alt="Restaurant 104"/>
+          </a>
 				<ul class="main-nav">
 					<li>
 						<a href="index.html">Home</a>
@@ -50,6 +48,50 @@
 					</li>
 				</ul>
 			</nav>
+
+      <div  class="mobile-navbar">
+        <div class="menu-header-mobile">
+          <img class="logo--mobile" src="img/logo-white.svg" alt="Restaurant 104"/>
+
+          <button class="nav-btn open-btn">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>        
+      
+        <div class="nav nav-1">
+          <div class="nav nav-2">
+            <div class="nav nav-3">
+              <button class="nav-btn close-btn">
+                <i class="fas fa-times"></i>
+              </button>
+      
+              <img class="logo--mobile" src="img/logo-black.svg" alt="Restaurant 104"/>
+      
+              <ul class="list">
+                <li>
+                  <a class="mobile-link" href="index.html">Home</a>
+                </li>
+                <li>
+                  <a class="mobile-link" href="menu.html">Menus</a>
+                </li>
+                <li>
+                  <a class="mobile-link" href="index.html#book">Book a Table</a>
+                </li>
+                <li>
+                  <a class="mobile-link" href="index.html#voucher">Vouchers</a>
+                </li>
+                <li>
+                  <a class="mobile-link" href="index.html#about-us">About Us</a>
+                </li>
+                <li>
+                  <a class="mobile-link" href="index.html#contact">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
 			<div class="menu__buttons">
 				<a class="btn btn__ghost btn__menu" href="#morning-menu">Breakfast</a>
 
@@ -861,8 +903,12 @@
 				<p>Website by <a href="https://cinthiafontoura.com/" target="_blank">Cinthia Fontoura</a></p>
 			</div>
 		</footer>
+
+    <!-- JavaScript -->
+		<script src="javascript/index.js"></script>
 		<!-- scripts TableIn 1 -->
-		<script src="https://app.tablein.com/sites/all/modules/custom/cumo_widget/js/code_outside_iframe.js?v2"
-			type="text/javascript"></script>
+		<script src="https://app.tablein.com/sites/all/modules/custom/cumo_widget/js/code_outside_iframe.js?v2"	type="text/javascript"></script>
+    <!-- Font Awesome -->
+		<script src="https://kit.fontawesome.com/ca208bcf52.js" crossorigin="anonymous"></script>
 	</body>
 </html>
