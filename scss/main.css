@@ -512,7 +512,7 @@ html {
   overflow-x: hidden;
   text-rendering: optimizeLegibility;
   scroll-behavior: smooth;
-  scroll-padding-top: 30px;
+  scroll-padding-top: 10px;
 }
 
 .container {
@@ -539,6 +539,7 @@ h2 {
   margin: 0 auto 5%;
   font-size: 250%;
   text-align: center;
+  color: #dda006;
 }
 
 /* ------------------------------------ */
