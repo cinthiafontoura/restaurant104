@@ -52,10 +52,10 @@
 
 			& a {
 				text-decoration: none;
-				color: $footer-text;
+				color: $secundary-color;
 
 				&:hover {
-					color: $secundary-color;
+					text-decoration: underline;
 					@include easeOut;
 				}
 			}

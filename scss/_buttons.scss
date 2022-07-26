@@ -2,16 +2,16 @@
 	@include easeOut;
   background: $secundary-color;
 	border: 1px solid $secundary-color;
-  border-radius: 8px;
+  border-radius: 6px;
 	color: $text-color;
 	display: inline-block;  
-	font-weight: 300;
-	padding: 10px 12px;
+	font-weight: 400;
+	padding: 10px 16px;
 	text-decoration: none;
 
   &:hover {
-    background: darken($secundary-color, 7);
-    border: 1px solid darken($secundary-color, 7);
+    background: darken($secundary-color, 9);
+    border: 1px solid darken($secundary-color, 9);
   }	
 
   &__ghost {

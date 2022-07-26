@@ -97,16 +97,15 @@
 	}
 
 	.home-header {
-		@include bg-img-fixed('../img/hero-mobile.jpg', 100vh);
+		@include bg-img('../img/hero-mobile.jpg', 100vh);
 	}
 
 	.menu-header {
-		@include bg-img-fixed('../img/hero-menu-mobile.jpg', 85vh);
+		@include bg-img('../img/hero-menu-mobile.jpg', 85vh);
 	}	
  
 	.btn {
 		display: block;
-		padding: 10px 0;
 		margin: 10px 0;
 		font-size: 120%;
 		text-align: center;		
@@ -161,7 +160,7 @@
 	}
 
 	.section-testimonials {
-	@include bg-img-fixed('../img/bg-customer-2-mobile.jpg', 100%);		
+	@include bg-img('../img/bg-customer-2-mobile.jpg', 100%);		
 		padding: 5% 0;
 
 		.testimonials {
@@ -213,7 +212,7 @@
 	}
 
   .menu-header {
-		@include bg-img-fixed('../img/hero-menu-mobile.jpg', 92vh);
+		@include bg-img('../img/hero-menu-mobile.jpg', 92vh);
 	}
 
 }

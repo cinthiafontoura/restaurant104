@@ -11,7 +11,7 @@ The font choosen is the Overpass, as a the best math with the original logo of t
 
 Colour Palette
 - #363c3c as a primary colour is used in all backgrounds
--   #b1954a escura #ffe787 clara 180deg gradient
+- #BFA250 escura #ffe787 clara 180deg gradient
 - #fff to the fonts text
 - #a0a1a1 to the grey text
 
@@ -41,3 +41,4 @@ Colour Palette
 - Booking sistem by [tablein](https://www.tablein.com/).
 - Favicon create using [Favicon](https://favicon.io/) generator. 
 - Burger menu added folloing Brad Traversy tutorial.
+- Text animation from [web code tools](https://webcode.tools/generators/css/keyframe-animation)

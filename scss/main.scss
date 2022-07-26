@@ -52,7 +52,7 @@ h2 {
 /* HEADER */
 /* ------------------------------------ */
 .home-header {
-	@include bg-img-fixed('../img/hero.jpg', 100vh);
+	@include bg-img('../img/hero.jpg', 100vh);
 }
 
 
@@ -115,5 +115,26 @@ h2 {
 	margin: 0 auto 6%;
 	font-size: 120%;
 }
+
+.title-home {
+	margin-top: 35vh;
+	font-weight: 600;
+	color: $text-color;
+	font-size: 4em;
+	animation: myAnim 2s ease 0.5s 1 normal forwards;
+}
+
+@keyframes myAnim {
+	0% {
+		opacity: 0;
+		transform: rotate(-540deg) scale(0);
+	}
+
+	100% {
+		opacity: 1;
+		transform: rotate(0) scale(1);
+	}
+}
+
 
 @import 'mobile';

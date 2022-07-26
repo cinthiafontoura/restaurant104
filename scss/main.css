@@ -127,16 +127,16 @@
   transition: all 0.5s ease-out;
   background: #BFA250;
   border: 1px solid #BFA250;
-  border-radius: 8px;
+  border-radius: 6px;
   color: #fff;
   display: inline-block;
-  font-weight: 300;
-  padding: 10px 12px;
+  font-weight: 400;
+  padding: 10px 16px;
   text-decoration: none;
 }
 .btn:hover {
-  background: #ac903f;
-  border: 1px solid #ac903f;
+  background: #a58a3c;
+  border: 1px solid #a58a3c;
 }
 .btn__ghost {
   background: rgba(0, 0, 0, 0.2);
@@ -170,7 +170,6 @@
 
 .menu-header {
   background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("../img/hero-menu.jpg");
-  background-attachment: fixed;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -272,7 +271,6 @@ hr {
 
 .section-testimonials {
   background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("../img/bg-testimonials2.jpg");
-  background-attachment: fixed;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -395,10 +393,10 @@ hr {
 }
 .footer__copy p a {
   text-decoration: none;
-  color: #a0a1a1;
+  color: #BFA250;
 }
 .footer__copy p a:hover {
-  color: #BFA250;
+  text-decoration: underline;
   transition: all 0.5s ease-out;
 }
 
@@ -454,7 +452,6 @@ h2 {
 /* ------------------------------------ */
 .home-header {
   background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("../img/hero.jpg");
-  background-attachment: fixed;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -522,6 +519,36 @@ h2 {
   font-size: 120%;
 }
 
+.title-home {
+  margin-top: 35vh;
+  font-weight: 600;
+  color: #fff;
+  font-size: 4em;
+  -webkit-animation: myAnim 2s ease 0.5s 1 normal forwards;
+          animation: myAnim 2s ease 0.5s 1 normal forwards;
+}
+
+@-webkit-keyframes myAnim {
+  0% {
+    opacity: 0;
+    transform: rotate(-540deg) scale(0);
+  }
+  100% {
+    opacity: 1;
+    transform: rotate(0) scale(1);
+  }
+}
+
+@keyframes myAnim {
+  0% {
+    opacity: 0;
+    transform: rotate(-540deg) scale(0);
+  }
+  100% {
+    opacity: 1;
+    transform: rotate(0) scale(1);
+  }
+}
 @media only screen and (max-width: 5000px) {
   .container {
     padding: 0 2%;
@@ -602,7 +629,6 @@ h2 {
   }
   .home-header {
     background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("../img/hero-mobile.jpg");
-    background-attachment: fixed;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -611,7 +637,6 @@ h2 {
   }
   .menu-header {
     background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("../img/hero-menu-mobile.jpg");
-    background-attachment: fixed;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -620,7 +645,6 @@ h2 {
   }
   .btn {
     display: block;
-    padding: 10px 0;
     margin: 10px 0;
     font-size: 120%;
     text-align: center;
@@ -665,7 +689,6 @@ h2 {
   }
   .section-testimonials {
     background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("../img/bg-customer-2-mobile.jpg");
-    background-attachment: fixed;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -707,7 +730,6 @@ h2 {
   }
   .menu-header {
     background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("../img/hero-menu-mobile.jpg");
-    background-attachment: fixed;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
