@@ -1,7 +1,8 @@
 $primary-color: #363c3c;
-$secundary-color: #fff199;
+$secundary-color: #BFA250;
+$gradient-color: linear-gradient(180deg #BFA250, #ffe787);
 $text-color: #fff;
-$footer-text: #afaeae;
+$footer-text: #a0a1a1;
 
 @mixin easeOut {
 	transition: all 0.5s ease-out;

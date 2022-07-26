@@ -5,6 +5,16 @@ A responsive website made for a local restaurant based in Dublin, Ireland, where
 Check the live project at [Restaurant 104](https://restaurant104.ie)
 
 
+## UX/UI
+
+The font choosen is the Overpass, as a the best math with the original logo of the resturant that use Interstate Regular.
+
+Colour Palette
+- #363c3c as a primary colour is used in all backgrounds
+-   #b1954a escura #ffe787 clara 180deg gradient
+- #fff to the fonts text
+- #a0a1a1 to the grey text
+
 ## Future Improvements
 
 - Documentation

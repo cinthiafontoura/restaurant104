@@ -1,6 +1,6 @@
 This favicon was generated using the following font:
 
-- Font Title: Ubuntu
-- Font Author: Copyright 2011 Canonical Ltd. Licensed under the Ubuntu Font Licence 1.0
-- Font Source: http://fonts.gstatic.com/s/ubuntu/v20/4iCs6KVjbNBYlgo6eAT3v02QFg.ttf
-- Font License: Ubuntu Font License, 1.0 (http://font.ubuntu.com/ufl/))
+- Font Title: Overpass
+- Font Author: Copyright 2021 The Overpass Project Authors (https://github.com/RedHatOfficial/Overpass)
+- Font Source: http://fonts.gstatic.com/s/overpass/v11/qFda35WCmI96Ajtm83upeyoaX6QPnlo6G_TrOZCLtce-og.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))
