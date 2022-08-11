@@ -211,8 +211,12 @@
 		padding: 25px 0;
 	}
 
-  .menu-header {
+  	.menu-header {
 		@include bg-img('../img/hero-menu-mobile.jpg', 92vh);
+	}
+
+	.title-home {
+		font-size: 2em;
 	}
 
 }

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,300;0,700;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200&display=swap');
 @import 'config', 'navbar', 'buttons', 'menu', 'testimonials', 'contact', 'footer';
 
 * {
@@ -62,7 +62,7 @@ h2 {
 .section-content {
 	margin: 9% auto 0;
 }
-
+ 
 .content {
 	display: flex;
 	justify-content: center;
@@ -118,23 +118,9 @@ h2 {
 
 .title-home {
 	margin-top: 35vh;
-	font-weight: 600;
+	font-weight: 700;
 	color: $text-color;
-	font-size: 4em;
-	animation: myAnim 2s ease 0.5s 1 normal forwards;
+	font-size: 4em; 
 }
-
-@keyframes myAnim {
-	0% {
-		opacity: 0;
-		transform: rotate(-540deg) scale(0);
-	}
-
-	100% {
-		opacity: 1;
-		transform: rotate(0) scale(1);
-	}
-}
-
 
 @import 'mobile';

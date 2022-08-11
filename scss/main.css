@@ -521,34 +521,11 @@ h2 {
 
 .title-home {
   margin-top: 35vh;
-  font-weight: 600;
+  font-weight: 700;
   color: #fff;
   font-size: 4em;
-  -webkit-animation: myAnim 2s ease 0.5s 1 normal forwards;
-          animation: myAnim 2s ease 0.5s 1 normal forwards;
 }
 
-@-webkit-keyframes myAnim {
-  0% {
-    opacity: 0;
-    transform: rotate(-540deg) scale(0);
-  }
-  100% {
-    opacity: 1;
-    transform: rotate(0) scale(1);
-  }
-}
-
-@keyframes myAnim {
-  0% {
-    opacity: 0;
-    transform: rotate(-540deg) scale(0);
-  }
-  100% {
-    opacity: 1;
-    transform: rotate(0) scale(1);
-  }
-}
 @media only screen and (max-width: 5000px) {
   .container {
     padding: 0 2%;
@@ -735,5 +712,8 @@ h2 {
     background-repeat: no-repeat;
     height: 92vh;
     width: 100vw;
+  }
+  .title-home {
+    font-size: 2em;
   }
 }/*# sourceMappingURL=main.css.map */

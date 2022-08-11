@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,300;0,700;1,300;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200&display=swap");
 .navbar {
   display: flex;
   justify-content: space-between; }
@@ -265,27 +265,26 @@ hr {
   .contact__infos {
     display: flex;
     justify-content: space-evenly;
-    align-items: center; }
+    align-items: center;
+    font-weight: 100; }
   .contact__contacts-info {
     color: #fff;
     display: block;
     margin-bottom: 1.5rem;
-    text-decoration: none; }
+    text-decoration: none;
+    font-weight: 100; }
     .contact__contacts-info:hover {
       text-decoration: underline;
       text-decoration-color: #BFA250; }
   .contact__contacts-hours {
     display: flex;
     flex-direction: column;
-    margin-bottom: 40px; }
+    margin-bottom: 40px;
+    font-weight: 100; }
     .contact__contacts-hours .opening {
       display: flex;
       justify-content: space-evenly;
       width: 30vw; }
-  .contact__map {
-    width: 40vw;
-    height: 60vh;
-    margin-bottom: 5%; }
 
 /* ------------------------------------ */
 /* FOOTER */
@@ -435,18 +434,9 @@ h2 {
 
 .title-home {
   margin-top: 35vh;
-  font-weight: 600;
+  font-weight: 700;
   color: #fff;
-  font-size: 4em;
-  animation: myAnim 2s ease 0.5s 1 normal forwards; }
-
-@keyframes myAnim {
-  0% {
-    opacity: 0;
-    transform: rotate(-540deg) scale(0); }
-  100% {
-    opacity: 1;
-    transform: rotate(0) scale(1); } }
+  font-size: 4em; }
 
 @media only screen and (max-width: 5000px) {
   .container {
@@ -593,4 +583,6 @@ h2 {
     background-position: center center;
     background-repeat: no-repeat;
     height: 92vh;
-    width: 100vw; } }
+    width: 100vw; }
+  .title-home {
+    font-size: 2em; } }
