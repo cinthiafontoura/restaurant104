@@ -27,13 +27,13 @@
 
 .menus__courses {
 	text-decoration: underline;
-	font-weight: 500;
+	font-weight: 300;
 	margin: 60px 0 30px;
 }
 
 .menu__item {
 	font-size: 1rem;
-	font-weight: 500;
+	font-weight: 300;
 	display: inline-block;
 }
 
@@ -50,13 +50,14 @@
 
 .menu__item-description {
 	font-size: 0.85rem;
+	font-weight: 200;
 	padding-top: 5px;
 	min-width: 80%;
 }
 
 .menu__price {
 	font-size: 1rem;
-	font-weight: 500;
+	font-weight: 200;
 	text-align: right;
 }
 

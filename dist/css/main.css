@@ -111,7 +111,7 @@
   border-radius: 6px;
   color: #fff;
   display: inline-block;
-  font-weight: 400;
+  font-weight: 300;
   padding: 10px 16px;
   text-decoration: none; }
   .btn:hover {
@@ -167,12 +167,12 @@
 
 .menus__courses {
   text-decoration: underline;
-  font-weight: 500;
+  font-weight: 300;
   margin: 60px 0 30px; }
 
 .menu__item {
   font-size: 1rem;
-  font-weight: 500;
+  font-weight: 300;
   display: inline-block; }
 
 .menu__alergen {
@@ -186,12 +186,13 @@
 
 .menu__item-description {
   font-size: 0.85rem;
+  font-weight: 200;
   padding-top: 5px;
   min-width: 80%; }
 
 .menu__price {
   font-size: 1rem;
-  font-weight: 500;
+  font-weight: 200;
   text-align: right; }
 
 .menus__morning-menu {
@@ -259,9 +260,10 @@ hr {
   margin: 6% auto;
   text-align: center; }
   .contact h3 {
-    font-weight: 400; }
+    font-weight: 300; }
   .contact__text {
-    margin: 60px 15px 60px; }
+    margin: 60px 15px 60px;
+    font-weight: 500; }
   .contact__infos {
     display: flex;
     justify-content: space-evenly;
@@ -285,6 +287,57 @@ hr {
       display: flex;
       justify-content: space-evenly;
       width: 30vw; }
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: black;
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.6);
+  /* Black w/ opacity */ }
+
+/* Modal Content/Box */
+.modal-content {
+  margin: 15% auto;
+  /* 15% from the top and centered */
+  padding: 20px;
+  width: 40%;
+  /* Could be more or less, depending on screen size */
+  height: 50%; }
+
+/* The Close Button */
+.close {
+  color: #fff;
+  float: right;
+  font-size: 60px;
+  font-weight: bold; }
+
+.close:hover,
+.close:focus {
+  color: #BFA250;
+  text-decoration: none;
+  cursor: pointer; }
+
+.iframe-tablein {
+  border: none;
+  height: 570px;
+  width: 352px; }
+
+#myBtn {
+  cursor: pointer; }
 
 /* ------------------------------------ */
 /* FOOTER */
@@ -339,7 +392,7 @@ html {
   color: #fff;
   font-family: 'Overpass', sans-serif;
   font-size: 20px;
-  font-weight: 300;
+  font-weight: 200;
   letter-spacing: 1px;
   line-height: 1.45;
   overflow-x: hidden;
@@ -430,7 +483,8 @@ h2 {
 .content-box p {
   width: 75%;
   margin: 0 auto 6%;
-  font-size: 120%; }
+  font-size: 120%;
+  font-weight: 100; }
 
 .title-home {
   margin-top: 35vh;
@@ -571,7 +625,11 @@ h2 {
     justify-content: flex-start;
     flex-direction: column; }
   .menu__price {
-    text-align: left; } }
+    text-align: left; }
+  .modal-content {
+    width: 60%;
+    /* Could be more or less, depending on screen size */
+    height: 100%; } }
 
 /* Small phones: from 370px to 480px */
 @media only screen and (max-width: 480px) {
@@ -585,4 +643,8 @@ h2 {
     height: 92vh;
     width: 100vw; }
   .title-home {
-    font-size: 2em; } }
+    font-size: 2em; }
+  .modal-content {
+    width: 100%;
+    /* Could be more or less, depending on screen size */
+    height: 100%; } }

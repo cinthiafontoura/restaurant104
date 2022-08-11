@@ -203,6 +203,11 @@
 	.menu__price {
 		text-align: left;
 	}
+
+	.modal-content {
+		width: 60%; /* Could be more or less, depending on screen size */
+		height: 100%;
+	  }
 }
 
 /* Small phones: from 370px to 480px */
@@ -218,5 +223,10 @@
 	.title-home {
 		font-size: 2em;
 	}
+
+	.modal-content {
+		width: 100%; /* Could be more or less, depending on screen size */
+		height: 100%;
+	  }
 
 }

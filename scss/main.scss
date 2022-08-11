@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200&display=swap');
-@import 'config', 'navbar', 'buttons', 'menu', 'testimonials', 'contact', 'footer';
+@import 'config', 'navbar', 'buttons', 'menu', 'testimonials', 'contact', 'modal', 'footer';
 
 * {
 	box-sizing: border-box;
@@ -12,7 +12,7 @@ html {
 	color: $text-color;
 	font-family: 'Overpass', sans-serif;
 	font-size: 20px;
-	font-weight: 300;
+	font-weight: 200;
 	letter-spacing: 1px;
 	line-height: 1.45;
 	overflow-x: hidden;
@@ -114,6 +114,7 @@ h2 {
 	width: 75%;
 	margin: 0 auto 6%;
 	font-size: 120%;
+	font-weight: 100;
 }
 
 .title-home {
