@@ -17,6 +17,7 @@
 	},
 	"homepage": "https://github.com/cinthiafontoura/restaurant104#readme",
 	"dependencies": {
+		"bootstrap": "^5.2.0",
 		"node": "^17.0.1",
 		"node-sass": "^6.0.1",
 		"normalize.css": "^8.0.1"
