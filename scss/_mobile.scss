@@ -182,16 +182,7 @@
 		}
 
 		&__contacts {
-			&-hours {
-				& .opening {
-					width: 100vw;
-				}
-			}
-		}
-
-		&__map {
-			width: 95vw;
-			height: 50vh;
+			flex-direction: column;
 		}
 	}
 
